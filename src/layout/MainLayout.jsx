@@ -5,10 +5,10 @@ import Sidebar from "../components/Sidebar"
 function MainLayout() {
   return (
     <div className="flex font-manrope">
-        <div className="w-2/12 bg-black border-r border-gray-400 ">
+        <div className="w-[270px] bg-black border-r border-[#222122] ">
             <Sidebar/>
         </div>
-        <div className="w-10/12 bg-black">
+        <div className="flex-1 bg-black">
         <Outlet/>
         </div>
     </div>
