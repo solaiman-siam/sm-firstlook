@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { navMenus } from "../lib/staticData";
 import { MoveUpRight } from "lucide-react";
-import { MdOutlineFileDownload } from "react-icons/md";
+import { PiDownloadSimple } from "react-icons/pi";
 
 function Sidebar() {
   const [active, setActive] = useState(0);
@@ -72,14 +72,14 @@ function Sidebar() {
           ))}
         </div>
       </div>
-      <div className="border-t w-full flex flex-col gap-4 border-[#222122]  p-6 ">
-        <div className="text-white p-6 gap-1 flex flex-col bg-background01 border border-border01 rounded-lg ">
-          <h3 className="text-xl font-medium text-text02">3/9/2025</h3>
-          <p className="text-text01 text-sm">Dhaka, Savar</p>
+      <div className="border-t w-full flex flex-col border-dashed gap-4 border-[#222122]  p-6 ">
+        <div className="text-white p-6 gap-1  border-dashed flex flex-col bg-background01 border border-white/10 rounded-lg ">
+          <h3 className="text-xl font-medium font-mono text-text02">3/20/2025</h3>
+          <p className="text-text01 text-sm font-medium">Savar, Dhaka</p>
         </div>
         <div className="text-white w-full">
-          <button className="flex cursor-pointer text-text02 justify-center items-center gap-2  w-full px-4 py-2.5 bg-background01 border border-border01 rounded-lg">
-          <MdOutlineFileDownload size={22} />
+          <button className="flex hover:bg-white/15 transition-all duration-300 cursor-pointer border-dashed text-text02 justify-center items-center gap-2  w-full px-4 py-2.5 font-medium text-[15px] bg-background01 border border-white/10 rounded-lg">
+          <PiDownloadSimple size={22} />
             Download CV
           </button>
         </div>

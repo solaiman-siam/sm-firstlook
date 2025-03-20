@@ -1,8 +1,11 @@
+import Part1 from "../components/HomePageComponents/Part1"
 
 
 function Home() {
   return (
-    <div className="h-screen w-full">Home</div>
+    <div className=" w-full">
+      <Part1/>
+    </div>
   )
 }
 
