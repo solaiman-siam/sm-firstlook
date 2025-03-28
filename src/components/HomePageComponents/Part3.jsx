@@ -6,7 +6,7 @@ function Part3() {
   return (
     <div>
     <Container>
-      <div className="text-white  p-10 pt-20 border-r border-l border-dashed border-white/13">
+      <div className="text-white  p-10 py-20 border-r border-l border-dashed border-white/13">
         <div className="flex items-center justify-between ">
             <h3 className="text-text01 font-semibold">Who I am</h3>
             <h3 className="text-text01 font-semibold flex items-center hover:text-white transition-all duration-300 cursor-pointer gap-2 group">What I offer <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
