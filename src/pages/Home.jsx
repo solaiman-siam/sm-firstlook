@@ -1,3 +1,4 @@
+import Part6 from "@/components/HomePageComponents/Part6"
 import Part1 from "../components/HomePageComponents/Part1"
 import Part2 from "../components/HomePageComponents/Part2"
 import Part3 from "../components/HomePageComponents/Part3"
@@ -11,8 +12,9 @@ function Home() {
       <Part1/>
       <Part2/>
       <Part3/>
-      <Part4/>
+      {/* <Part4/> */}
       <Part5/>
+      <Part6/>
     </div>
   )
 }

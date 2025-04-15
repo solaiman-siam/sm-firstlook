@@ -12,27 +12,28 @@ function Part3() {
             <h3 className="text-text01 font-semibold flex items-center hover:text-white transition-all duration-300 cursor-pointer gap-2 group">What I offer <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
         </div>
         <div className="flex flex-col gap-6 text-white/85 pt-8 font-semibold">
-            <p>Hey, I’m Andrew, a product and graphic designer with a knack for creating meaningful, user-friendly designs. Right now, I’m leading design at <span className="text-[#0F90D6] underline cursor-pointer">NexusLab</span>, where we’re redefining digital interactions.</p>
+            <p>Hey, I’m Solaiman — a frontend developer passionate about building clean, dynamic, and user-focused web experiences.
+            Currently, I’m bringing ideas to life at   <span className="text-[#0F90D6] underline cursor-pointer">Softvence Agency</span>, where I specialize in crafting responsive and performant interfaces using React.</p>
 
-            <p>Before <span className="text-[#0F90D6] underline cursor-pointer">NexusLab</span>, I spent a few years at BrightPath, crafting intuitive designs for cutting-edge apps. I’ve also worked with Flux Studios, PixelForge, and Orbital Designs, focusing on branding and UX.</p>
-            <p>My journey began at Ascend Innovations, where I discovered my passion for product design. With years of experience, I’m ready to make your next project both functional and memorable.</p>
+            <p>Before joining <span className="text-[#0F90D6] underline cursor-pointer">Softvence</span> , I honed my skills through the Programming Hero course, where I consistently stood out with top performance. Even before that, I was a self-taught developer, driven by curiosity and a love for turning code into creation.</p>
+            <p>From self-learning to agency work, my journey has shaped me into a developer who values both form and function — and I’m just getting started.</p>
         </div>
 
         <div className="pt-16 flex flex-col gap-6">
             <div className="flex  items-center justify-between">
                 <div className="flex items-center gap-2.5">
-                <img className="w-6 h-6 rounded-full" src="https://framerusercontent.com/images/hLqJBOiVfiLC4TxMpZP7EUZUoE.svg" alt="" />
-                <h4 className="text-white font-semibold font-manrope">Flux Studios</h4>
+                <img className="w-6 h-6 rounded-full" src="https://i.ibb.co.com/hxJ6Yxjz/softvence.png" alt="" />
+                <h4 className="text-white font-semibold font-manrope">Softvence Agency</h4>
                 </div>
                 <div className="flex-1 border-[0.5px] border-white/13 border-dashed mx-4">
 
                 </div>
                 <div className="flex items-center gap-2">
-                    <h4 className="text-text01 font-semibold font-manrope">Lead designer</h4>
-                    <h4 className="text-[#686868] font-medium font-mono ">2020-NOW</h4>
+                    <h4 className="text-text01 font-semibold font-manrope">Lead developer</h4>
+                    <h4 className="text-[#686868] font-medium font-mono ">2024-NOW</h4>
                 </div>
             </div>
-            <div className="flex  items-center justify-between">
+            {/* <div className="flex  items-center justify-between">
                 <div className="flex items-center gap-2.5">
                 <img className="w-6 h-6 rounded-full" src="https://framerusercontent.com/images/bgJoi2TylcSbXq2TGzS5SLlOCog.svg" alt="" />
                 <h4 className="text-white font-semibold font-manrope">Orbital</h4>
@@ -83,7 +84,7 @@ function Part3() {
                     <h4 className="text-text01 font-semibold font-manrope">Intern designer</h4>
                     <h4 className="text-[#686868] font-medium font-mono ">2020-NOW</h4>
                 </div>
-            </div>
+            </div> */}
         </div>
       </div>
     </Container>
