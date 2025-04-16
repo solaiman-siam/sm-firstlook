@@ -1,3 +1,4 @@
+import { BackgroundBeams } from "../background-beams";
 import Container from "../Container";
 import CommonButton from "../sharedComponents/CommonButton";
 
@@ -13,7 +14,7 @@ const time = now.toLocaleTimeString([], {
   return (
     <div>
       <Container>
-        <div className="text-white  p-10 pt-20 border-r border-l border-dashed border-white/13">
+        <div className="text-white  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
           <div className="flex flex-col  gap-2">
             <div className="flex items-center pb-4 gap-3">
               <div className="size-6 overflow-hidden  rounded-full">
@@ -53,6 +54,7 @@ const time = now.toLocaleTimeString([], {
               </div>
             </div> */}
           </div>
+          <BackgroundBeams  />
         </div>
       </Container>
     </div>

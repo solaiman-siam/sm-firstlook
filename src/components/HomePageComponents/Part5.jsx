@@ -18,7 +18,6 @@ function Part5() {
             Find the answers to our most common questions here, but if you still
             need help, feel free to contact me.{" "}
           </p>
-
           <CommonButton innerText={'Contact Me'}/>
         </div>
         <div className="flex-1 text-white">
@@ -41,7 +40,6 @@ function Part5() {
               I believe in design with purpose — blending aesthetics and functionality. I work closely with designers (or bring my own design sense) to create interfaces that are not just visually engaging, but also accessible, performant, and user-friendly. Every line of code I write is aimed at delivering a smooth and memorable digital experience.
               </AccordionContent>
             </AccordionItem>
-
           </Accordion>
         </div>
       </div>

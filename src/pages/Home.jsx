@@ -4,6 +4,9 @@ import Part2 from "../components/HomePageComponents/Part2"
 import Part3 from "../components/HomePageComponents/Part3"
 import Part4 from "../components/HomePageComponents/Part4"
 import Part5 from "../components/HomePageComponents/Part5"
+import Part7 from "@/components/HomePageComponents/Part7"
+import Footer from "@/components/Footer"
+import Part8 from "@/components/HomePageComponents/Part8"
 
 
 function Home() {
@@ -15,6 +18,9 @@ function Home() {
       {/* <Part4/> */}
       <Part5/>
       <Part6/>
+      <Part7/>
+      <Part8/>
+      <Footer/>
     </div>
   )
 }

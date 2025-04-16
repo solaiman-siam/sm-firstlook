@@ -6,6 +6,12 @@ import { PiDownloadSimple } from "react-icons/pi";
 function Sidebar() {
   const [active, setActive] = useState(0);
 
+  const today = new Date();
+
+const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
+
+
+
   return (
     <div className="h-screen flex flex-col justify-between  ">
       <div className="p-6">
@@ -74,7 +80,7 @@ function Sidebar() {
       </div>
       <div className="border-t w-full flex flex-col border-dashed gap-4 border-[#222122]  p-6 ">
         <div className="text-white p-6 gap-1  border-dashed flex flex-col bg-background01 border border-white/10 rounded-lg ">
-          <h3 className="text-xl font-medium font-mono text-text02">3/20/2025</h3>
+          <h3 className="text-xl font-medium font-mono text-text02">{formattedDate}</h3>
           <p className="text-text01 text-sm font-medium">Savar, Dhaka</p>
         </div>
         <div className="text-white w-full">
