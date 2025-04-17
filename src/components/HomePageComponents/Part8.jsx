@@ -1,9 +1,6 @@
 
 import { motion } from "framer-motion"
 import Container from "../Container"
-
-import Video from '../../assets/images/galaxy.mp4'
-import Image from '../../assets/images/starts.webp'
 import { BackgroundBeams } from "../background-beams"
 
 
