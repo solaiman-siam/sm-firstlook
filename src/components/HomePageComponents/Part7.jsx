@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { SlSocialLinkedin } from "react-icons/sl";
 function Part7() {
   return (
-    <div className="w-full  px-16 py-24 h-full border-y border-white/15 border-dashed">
+    <div className="w-full  px-16 py-24 h-full border-t border-white/15 border-dashed">
       <div className="flex flex-col items-center gap-8">
       <div className="flex justify-center w-full  items-center pb-8 gap-4">
             <span className="w-10 h-[1px]  bg-gradient-to-r from-transparent to-white"></span>
@@ -24,7 +24,7 @@ function Part7() {
             <div className="px-8"><RiFacebookCircleLine className="text-[#777777] hover:text-white transition-all duration-200 cursor-pointer" size={28} /></div>
         </div>
 
-        <h4 className="text-white font-medium text-center pt-0">solaimansiam93@gmail.com</h4>
+        <h4 className="text-white/80 font-medium text-center pt-0">solaimansiam93@gmail.com</h4>
     </div>
       </div>
     </div>

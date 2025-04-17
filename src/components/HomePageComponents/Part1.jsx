@@ -15,7 +15,7 @@ const time = now.toLocaleTimeString([], {
     <div>
       <Container>
         <div className="text-white  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
-          <div className="flex flex-col  gap-2">
+          <div className="flex flex-col relative z-[100]  gap-2">
             <div className="flex items-center pb-4 gap-3">
               <div className="size-6 overflow-hidden  rounded-full">
                 <img
@@ -54,7 +54,7 @@ const time = now.toLocaleTimeString([], {
               </div>
             </div> */}
           </div>
-          <BackgroundBeams  />
+          <BackgroundBeams  className={'text-black/80'} />
         </div>
       </Container>
     </div>

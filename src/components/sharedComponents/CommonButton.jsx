@@ -2,7 +2,7 @@ import React from 'react'
 
 function CommonButton({innerText}) {
   return (
-    <button className="flex items-center group  bg-gradient-to-b transition-all  cursor-pointer  border-[1px] border-white/20 from-white/25 via-white/10 hover:via-white/10 to-white/15  gap-2 outline-4 px-3.5 py-2 rounded-lg hover:outline-white/15 outline-background01">
+    <button className="flex relative z-[100] items-center group  bg-gradient-to-b transition-all  cursor-pointer  border-[1px] border-white/20 from-white/25 via-white/10 hover:via-white/10 to-white/15  gap-2 outline-4 px-3.5 py-2 rounded-lg hover:outline-white/15 outline-background01">
     <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
