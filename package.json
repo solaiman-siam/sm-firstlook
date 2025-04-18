@@ -17,11 +17,8 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.7.3",
     "lenis": "^1.2.3",
-<<<<<<< HEAD
     "lightningcss": "^1.29.3",
-=======
     "lottie-react": "^2.4.1",
->>>>>>> d66ec3bf386a1913f970bcc11a6352753afa663a
     "lucide-react": "^0.483.0",
     "motion": "^12.7.4",
     "react": "^19.0.0",
