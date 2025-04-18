@@ -2,7 +2,8 @@ import { useState } from "react";
 import { navMenus } from "../lib/staticData";
 import { MoveUpRight } from "lucide-react";
 import { PiDownloadSimple } from "react-icons/pi";
-
+import { FaGithub } from "react-icons/fa6";
+import { Link } from "react-router";
 function Sidebar() {
   const [active, setActive] = useState(0);
 
@@ -33,7 +34,7 @@ const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFul
 
         <div className="flex flex-col text-sm font-medium pt-8">
           {navMenus.map((item, index) => (
-            <div
+            <Link to={item?.link} target="_blank"
               onClick={() => !item.isSection && setActive(index)}
               className={`${
                 index === active
@@ -56,11 +57,7 @@ const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFul
                     size={18}
                     className="absolute top-1/2 right-4 -translate-y-1/2 group-hover:opacity-95 opacity-0 transition-all duration-200"
                   />{" "}
-                  <img
-                    className={`${item.isSection ? "" : "size-4.5"}`}
-                    src={item.icon}
-                    alt=""
-                  />
+                  <FaGithub />
                 </>
               ) : (
                 <span
@@ -74,7 +71,7 @@ const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFul
                 {" "}
                 {item.title}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

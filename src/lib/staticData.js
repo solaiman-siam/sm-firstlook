@@ -1,6 +1,6 @@
 
 
-import Twitter from '../assets/images/twitter.avif';
+import { FaGithub } from "react-icons/fa6";
 
 export const navMenus = [
     {
@@ -42,9 +42,9 @@ export const navMenus = [
       "link": "/stack"
     },
     {
-      "title": "Twitter",
-      "icon": Twitter,
-      "link": "https://twitter.com"
+      "title": "Github",
+      "icon": '',
+      "link": "https://github.com/solaiman-siam"
     }
   ]
   

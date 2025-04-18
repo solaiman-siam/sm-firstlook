@@ -142,10 +142,10 @@ function Part6() {
             <Link to={'https://www.typescriptlang.org/'} className=" group cursor-pointer flex items-center gap-3  rounded-sm text-text01 font-medium text-sm ">
               <div
                 className="border
-             border-white/40 group-hover:border-white transition-all duration-300  p-1.5  rounded-sm border-dashed"
+             border-white/40 group-hover:border-white transition-all duration-300  p-2  rounded-sm border-dashed"
               >
                 <img
-                  className="size-[38px]"
+                  className="size-[36px]"
                   src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
                   alt=""
                 />
