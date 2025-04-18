@@ -20,7 +20,7 @@ function Home() {
       <Part6/>
       <Part7/>
       <Part8/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
