@@ -1,6 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import Container from "../Container";
 import { Link } from "react-router";
+import { imageProvider } from "@/lib/imageProvider";
 
 function Part6() {
   return (
@@ -38,7 +39,7 @@ function Part6() {
               >
                 <img
                   className="w-10 h-10"
-                  src="https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small/js-icon-transparent-background-free-png.png"
+                  src={imageProvider.JavascriptImage}
                   alt=""
                 />
               </div>
@@ -56,7 +57,7 @@ function Part6() {
               >
                 <img
                   className="w-8 h-8"
-                  src="https://cdn.iconscout.com/icon/free/png-256/free-redux-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-10-pack-icons-283024.png?f=webp&w=256"
+                  src={imageProvider.ReduxImage}
                   alt=""
                 />
               </div>
@@ -74,7 +75,7 @@ function Part6() {
               >
                 <img
                   className="size-[38px]"
-                  src="https://img.icons8.com/color/512/html-5.png"
+                  src={imageProvider.HtmlImage}
                   alt=""
                 />
               </div>
@@ -92,7 +93,7 @@ function Part6() {
               >
                 <img
                   className="size-[38px]"
-                  src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                  src={imageProvider.ReactImage}
                   alt=""
                 />
               </div>
@@ -110,7 +111,7 @@ function Part6() {
               >
                 <img
                   className="size-[38px]"
-                  src="https://img.icons8.com/?size=512&id=21278&format=png"
+                  src={imageProvider.CssImage}
                   alt=""
                 />
               </div>
@@ -128,7 +129,7 @@ function Part6() {
               >
                 <img
                   className="size-[38px]"
-                  src="https://img.icons8.com/color/512/tailwindcss.png"
+                  src={imageProvider.TailwindImage}
                   alt=""
                 />
               </div>
@@ -146,7 +147,7 @@ function Part6() {
               >
                 <img
                   className="size-[36px]"
-                  src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
+                  src={imageProvider.TypescriptImage}
                   alt=""
                 />
               </div>
@@ -164,7 +165,7 @@ function Part6() {
               >
                 <img
                   className="size-[37px]"
-                  src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                  src={imageProvider.GitImage}
                   alt=""
                 />
               </div>
