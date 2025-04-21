@@ -48,7 +48,7 @@ function MainLayout() {
       </motion.div>
       <motion.div
         initial={{ filter: "blur(10px)", opacity: 0 }}
-        animate={{ filter: "blur(0px)", opacity: 1 }}
+        whileInView={{ filter: "blur(0px)", opacity: 1 }}
         transition={{ duration: 1, ease: "easeIn" }}
         className="flex-1 ml-[270px] relative"
       >

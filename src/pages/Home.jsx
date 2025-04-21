@@ -7,11 +7,11 @@ import Part5 from "../components/HomePageComponents/Part5"
 import Part7 from "@/components/HomePageComponents/Part7"
 import Footer from "@/components/Footer"
 import Part8 from "@/components/HomePageComponents/Part8"
-
+import {motion} from 'framer-motion'
 
 function Home() {
   return (
-    <div className=" w-full bg-[#151515]">
+    <motion.div initial={{filter: 'blur(10px)'}} animate={{filter: 'blur(0px)'}} transition={{duration: 0.3, ease: 'easeIn'}} className=" w-full bg-[#151515]">
       <Part1/>
       <Part2/>
       <Part3/>
@@ -21,7 +21,7 @@ function Home() {
       <Part7/>
       <Part8/>
       {/* <Footer/> */}
-    </div>
+    </motion.div>
   )
 }
 
