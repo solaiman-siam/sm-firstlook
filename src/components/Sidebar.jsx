@@ -34,7 +34,7 @@ const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFul
 
         <div className="flex flex-col text-sm font-medium pt-8">
           {navMenus.map((item, index) => (
-            <Link to={item?.link} target="_blank"
+            <Link to={item?.link} 
               onClick={() => !item.isSection && setActive(index)}
               className={`${
                 index === active
