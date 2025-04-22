@@ -66,13 +66,41 @@ function Part2() {
               <div className="overflow-hidden h-[350px]">
               <img
                 className="w-full transition-all duration-300  group-hover:scale-110"
-                src="https://framerusercontent.com/images/bE5C7AyfhrXV8b2NK9vhMlEFmQ.png?scale-down-to=1024"
+                src="https://i.ibb.co.com/HpDSt6gd/conmap.jpg"
                 alt=""
               />
               </div>
               <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
                 <div className="flex flex-col  gap-2">
-                <h3 className="text-white font-medium">Boring Corporation</h3>
+                <h3 className="text-white font-medium">Construction Site Web Application</h3>
+                <div className="flex items-center gap-4">
+                <div className="flex text-text01 items-center gap-1">
+                <LucideUsersRound size={18} />
+                  <h4 className="text-text01 font-medium">102 Views</h4>
+                </div>
+                <div className="flex text-text01 font-medium items-center gap-1">
+                <Calendar size={18} />
+                <h4 className="text-text01 font-medium">2025</h4>
+                </div>
+                </div>
+                </div>
+                <ArrowUpRight className="group-hover:rotate-45 transition-all duration-300" strokeWidth={1.2}/>
+              </div>
+              <div className="absolute w-full h-full top-0 left-0 bg-black/20 "></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className=" relative group border border-white/20 p-px rounded-xl overflow-hidden w-full ">
+              <div className="overflow-hidden h-[350px]">
+              <img
+                className="w-full transition-all duration-300  group-hover:scale-110"
+                src="https://i.ibb.co.com/PsbQ420S/duellert.jpg"
+                alt=""
+              />
+              </div>
+              <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
+                <div className="flex flex-col  gap-2">
+                <h3 className="text-white font-medium">Birthday Reminder and SMS Sending</h3>
                 <div className="flex items-center gap-4">
                 <div className="flex text-text01 items-center gap-1">
                 <LucideUsersRound size={18} />
@@ -94,13 +122,13 @@ function Part2() {
               <div className="overflow-hidden h-[350px]">
               <img
                 className="w-full transition-all duration-300  group-hover:scale-110"
-                src="https://framerusercontent.com/images/bE5C7AyfhrXV8b2NK9vhMlEFmQ.png?scale-down-to=1024"
+                src="https://i.ibb.co.com/4wdd6fWB/goldlync.jpg"
                 alt=""
               />
               </div>
               <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
                 <div className="flex flex-col  gap-2">
-                <h3 className="text-white font-medium">Boring Corporation</h3>
+                <h3 className="text-white font-medium">Service Based with Subscription Model</h3>
                 <div className="flex items-center gap-4">
                 <div className="flex text-text01 items-center gap-1">
                 <LucideUsersRound size={18} />
@@ -122,13 +150,69 @@ function Part2() {
               <div className="overflow-hidden h-[350px]">
               <img
                 className="w-full transition-all duration-300  group-hover:scale-110"
-                src="https://framerusercontent.com/images/bE5C7AyfhrXV8b2NK9vhMlEFmQ.png?scale-down-to=1024"
+                src="https://i.ibb.co.com/gZkSc7Mx/aleesa56.jpg"
                 alt=""
               />
               </div>
               <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
                 <div className="flex flex-col  gap-2">
-                <h3 className="text-white font-medium">Boring Corporation</h3>
+                <h3 className="text-white font-medium">CQD Cleaning Services with Subscription</h3>
+                <div className="flex items-center gap-4">
+                <div className="flex text-text01 items-center gap-1">
+                <LucideUsersRound size={18} />
+                  <h4 className="text-text01 font-medium">1 Forme</h4>
+                </div>
+                <div className="flex text-text01 font-medium items-center gap-1">
+                <Calendar size={18} />
+                <h4 className="text-text01 font-medium">2024</h4>
+                </div>
+                </div>
+                </div>
+                <ArrowUpRight className="group-hover:rotate-45 transition-all duration-300" strokeWidth={1.2}/>
+              </div>
+              <div className="absolute w-full h-full top-0 left-0 bg-black/20 "></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className=" relative group border border-white/20 p-px rounded-xl overflow-hidden w-full ">
+              <div className="overflow-hidden h-[350px]">
+              <img
+                className="w-full transition-all duration-300  group-hover:scale-110"
+                src="https://i.ibb.co.com/d47J2CsK/dustintess.jpg"
+                alt=""
+              />
+              </div>
+              <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
+                <div className="flex flex-col  gap-2">
+                <h3 className="text-white font-medium">Car Model with Configuration Features</h3>
+                <div className="flex items-center gap-4">
+                <div className="flex text-text01 items-center gap-1">
+                <LucideUsersRound size={18} />
+                  <h4 className="text-text01 font-medium">1 Forme</h4>
+                </div>
+                <div className="flex text-text01 font-medium items-center gap-1">
+                <Calendar size={18} />
+                <h4 className="text-text01 font-medium">2024</h4>
+                </div>
+                </div>
+                </div>
+                <ArrowUpRight className="group-hover:rotate-45 transition-all duration-300" strokeWidth={1.2}/>
+              </div>
+              <div className="absolute w-full h-full top-0 left-0 bg-black/20 "></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className=" relative group border border-white/20 p-px rounded-xl overflow-hidden w-full ">
+              <div className="overflow-hidden h-[350px]">
+              <img
+                className="w-full transition-all duration-300  group-hover:scale-110"
+                src="https://i.ibb.co.com/Gfz65jbp/miles-finiq.jpg"
+                alt=""
+              />
+              </div>
+              <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
+                <div className="flex flex-col  gap-2">
+                <h3 className="text-white font-medium">New places with Newsletter</h3>
                 <div className="flex items-center gap-4">
                 <div className="flex text-text01 items-center gap-1">
                 <LucideUsersRound size={18} />
