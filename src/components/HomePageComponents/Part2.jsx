@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { useRef, useState } from "react";
 import { ArrowUpRight, Calendar, ChevronLeft, ChevronRight, LucideUsersRound } from "lucide-react";
+import { Link } from "react-router";
 
 function Part2() {
   const [isStart, setIsStart] = useState(true);
@@ -19,7 +20,9 @@ function Part2() {
     <div className="w-full px-16 py-24 h-full border-y border-white/15 border-dashed">
       <div className="flex items-center pb-4 justify-between ">
         <h3 className="text-text01 font-semibold ">Featured work</h3>
+        <Link to={'/projects'}>
         <h3 className="text-base font-semibold text-text01 cursor-pointer transition-all duration-200 hover:text-white flex items-center group gap-2">All projects <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
+        </Link>
       </div>
       <div className="w-10/12 relative max-w-[1300px]  ">
         <div className="flex justify-between absolute top-1/2 -translate-y-1/2 z-[10] items-center px-10 w-full">

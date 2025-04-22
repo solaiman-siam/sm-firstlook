@@ -28,6 +28,7 @@ export const router = createBrowserRouter([
                 path: '/stack',
                 element: <Stack/>
             }
+            
         ]
     }
 ])
