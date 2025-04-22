@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Contact from "@/pages/Contact";
 import Projects from "@/pages/Projects";
 import Stack from "@/pages/Stack";
+import ProjectDetails from "@/pages/ProjectDetails";
 
 
 
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
             {
                 path: '/stack',
                 element: <Stack/>
+            },
+            {
+                path: '/project-details/:id',
+                element: <ProjectDetails/>
             }
             
         ]

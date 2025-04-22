@@ -48,3 +48,49 @@ export const navMenus = [
     }
   ]
   
+  export const projectData = [
+    {
+      "id": 1,
+      "project_image": "https://i.ibb.co.com/PsbQ420S/duellert.jpg",
+      "project_name": "Birthday Reminder and SMS Sending",
+      "project_views": 1250,
+      "project_year": 2025
+    },
+    {
+      "id": 2,
+      "project_image": "https://i.ibb.co.com/4wdd6fWB/goldlync.jpg",
+      "project_name": "Service Based with Subscription Model",
+      "project_views": 2310,
+      "project_year": 2025
+    },
+    {
+      "id": 3,
+      "project_image": "https://i.ibb.co.com/gZkSc7Mx/aleesa56.jpg",
+      "project_name": "CQD Cleaning Services with Subscription",
+      "project_views": 980,
+      "project_year": 2025
+    },
+    {
+      "id": 4,
+      "project_image": "https://i.ibb.co.com/d47J2CsK/dustintess.jpg",
+      "project_name": "Car Model with Configuration Features",
+      "project_views": 1560,
+      "project_year": 2024
+    },
+    {
+      "id": 5,
+      "project_image": "https://i.ibb.co.com/Gfz65jbp/miles-finiq.jpg",
+      "project_name": "New places with Newsletter",
+      "project_views": 1560,
+      "project_year": 2025
+    },
+    {
+      "id": 6,
+      "project_image": "https://i.ibb.co.com/HpDSt6gd/conmap.jpg",
+      "project_name": "Construction Site Web Application",
+      "project_views": 1560,
+      "project_year": 2025
+    },
+    
+  ]
+  
