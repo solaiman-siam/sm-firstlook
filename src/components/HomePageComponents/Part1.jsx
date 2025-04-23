@@ -19,8 +19,8 @@ const time = now.toLocaleTimeString([], {
             <div className="flex items-center pb-4 gap-3">
               <div className="size-6 overflow-hidden  rounded-full">
                 <img
-                  className="w-full h-full object-cover"
-                  src="https://framerusercontent.com/images/HqoHkPp6dpJFdgMqUKIaAXmy7o.jpg?scale-down-to=512"
+                  className="w-full filter grayscale-100 h-full object-cover"
+                  src="https://i.ibb.co.com/LdpkWkDw/ec72492c-7e4c-4a22-a46b-77a272d44dcb-1.jpg"
                   alt=""
                 />
               </div>

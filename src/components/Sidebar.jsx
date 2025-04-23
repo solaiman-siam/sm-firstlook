@@ -9,9 +9,16 @@ function Sidebar() {
 
   const today = new Date();
 
-const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
+  const formattedDate = `${
+    today.getMonth() + 1
+  }/${today.getDate()}/${today.getFullYear()}`;
 
-
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/resume_md_solaiman_siam.pdf"; // This path is relative to the public folder
+    link.download = "Md_Solaiman_CV.pdf"; // Optional: name the file
+    link.click();
+  };
 
   return (
     <div className="h-screen flex flex-col justify-between  ">
@@ -34,7 +41,9 @@ const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFul
 
         <div className="flex flex-col text-sm font-medium pt-8">
           {navMenus.map((item, index) => (
-            <Link key={item.id} to={item?.link} 
+            <Link
+              key={item.id}
+              to={item?.link}
               onClick={() => !item.isSection && setActive(index)}
               className={`${
                 index === active
@@ -77,12 +86,17 @@ const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFul
       </div>
       <div className="border-t w-full flex flex-col border-dashed gap-4 border-[#222122]  p-6 ">
         <div className="text-white p-6 gap-1  border-dashed flex flex-col bg-background01 border border-white/10 rounded-lg ">
-          <h3 className="text-xl font-medium font-mono text-text02">{formattedDate}</h3>
+          <h3 className="text-xl font-medium font-mono text-text02">
+            {formattedDate}
+          </h3>
           <p className="text-text01 text-sm font-medium">Savar, Dhaka</p>
         </div>
         <div className="text-white w-full">
-          <button className="flex hover:bg-white/15 transition-all duration-300 cursor-pointer border-dashed text-text02 justify-center items-center gap-2  w-full px-4 py-2.5 font-medium text-[15px] bg-background01 border border-white/10 rounded-lg">
-          <PiDownloadSimple size={22} />
+          <button
+            onClick={handleDownload}
+            className="flex hover:bg-white/15 transition-all duration-300 cursor-pointer border-dashed text-text02 justify-center items-center gap-2  w-full px-4 py-2.5 font-medium text-[15px] bg-background01 border border-white/10 rounded-lg"
+          >
+            <PiDownloadSimple size={22} />
             Download CV
           </button>
         </div>
