@@ -68,14 +68,14 @@ function Part2() {
           }}
           className="mySwiper w-full "
         >
-
           {
             projectData.map(project => (
               <SwiperSlide>
-              <Link to={`/project-details/${project?.id}`}  className=" relative cursor-pointer group border border-white/20 p-px rounded-xl overflow-hidden w-full ">
-                <div className="overflow-hidden h-[350px]">
+              <Link key={project.id} to={`/project-details/${project?.id}`}>
+              <div   className=" relative overflow-hidden cursor-pointer group border border-white/20 p-px rounded-xl  w-full ">
+                <div className="overflow-hidden  h-[350px]">
                 <img
-                  className="w-full transition-all duration-300  group-hover:scale-110"
+                  className="w-full transition-all duration-300 group-hover:scale-110"
                   src={project?.project_image}
                   alt=""
                 />
@@ -96,15 +96,12 @@ function Part2() {
                   </div>
                   <ArrowUpRight className="group-hover:rotate-45 transition-all duration-300" strokeWidth={1.2}/>
                 </div>
-                <div className="absolute w-full h-full top-0 left-0 bg-black/20 "></div>
+                <div className="absolute w-full h-full top-0 left-0 bg-black/10 "></div>
+              </div>
               </Link>
             </SwiperSlide>
             ))
           }
-         
-         
-
-        
         </Swiper>
         {/* Left Blur Effect (Show only if NOT at the start) */}
         {isEnd && (

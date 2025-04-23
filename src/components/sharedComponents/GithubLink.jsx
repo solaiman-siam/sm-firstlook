@@ -1,0 +1,18 @@
+import {  Github } from "lucide-react"
+import { Link } from "react-router"
+
+
+function GithubLink({innerText, link}) {
+  return (
+    <Link to={link}>
+      <button className="flex relative z-[100] items-center group  bg-gradient-to-b transition-all  cursor-pointer  border-[1px] border-white/20 from-white/25 via-white/10 hover:via-white/10 to-white/15  gap-2 outline-4 px-3.5 py-2 rounded-lg hover:outline-white/15 outline-background01">
+      <Github size={22} strokeWidth={1} />
+        <h4 className="text-[15px] group-hover:text-white/90 text-white/75  transition-all duration-200 hover:text-white/85 font-medium">
+          {innerText}
+        </h4>
+      </button>
+    </Link>
+  )
+}
+
+export default GithubLink

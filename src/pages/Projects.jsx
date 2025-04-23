@@ -1,6 +1,8 @@
 import Container from "@/components/Container";
+import { projectData } from "@/lib/staticData";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Calendar, LucideUsersRound } from "lucide-react";
+import { Link } from "react-router";
 
 function Projects() {
   return (
@@ -17,94 +19,40 @@ function Projects() {
               Dive into the portfolio of a design journey well-traveled.
             </p>
           </div>
-          <div className="space-y-10">
-            <div className=" relative group border border-white/20 p-px rounded-xl overflow-hidden w-full ">
-              <div className="overflow-hidden h-[450px]">
+          <div className="space-y-10 flex flex-col gap-4">
+            {
+              projectData.map(project => (
+                <Link key={project.id} to={`/project-details/${project?.id}`}>
+              <div   className=" relative overflow-hidden cursor-pointer group border border-white/20 p-px rounded-xl  w-full ">
+                <div className="overflow-hidden  h-[450px]">
                 <img
-                  className="w-full transition-all duration-300  group-hover:scale-110"
-                  src="https://framerusercontent.com/images/bE5C7AyfhrXV8b2NK9vhMlEFmQ.png?scale-down-to=1024"
+                  className="w-full transition-all duration-300 group-hover:scale-110"
+                  src={project?.project_image}
                   alt=""
                 />
-              </div>
-              <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
-                <div className="flex flex-col  gap-2">
-                  <h3 className="text-white font-medium">Boring Corporation</h3>
-                  <div className="flex items-center gap-4">
-                    <div className="flex text-text01 items-center gap-1">
-                      <LucideUsersRound size={18} />
-                      <h4 className="text-text01 font-medium">1 Forme</h4>
-                    </div>
-                    <div className="flex text-text01 font-medium items-center gap-1">
-                      <Calendar size={18} />
-                      <h4 className="text-text01 font-medium">2024</h4>
-                    </div>
-                  </div>
                 </div>
-                <ArrowUpRight
-                  className="group-hover:rotate-45 transition-all duration-300"
-                  strokeWidth={1.2}
-                />
-              </div>
-              <div className="absolute w-full h-full top-0 left-0 bg-black/20 "></div>
-            </div>
-            <div className=" relative group border border-white/20 p-px rounded-xl overflow-hidden w-full ">
-              <div className="overflow-hidden h-[450px]">
-                <img
-                  className="w-full transition-all duration-300  group-hover:scale-110"
-                  src="https://framerusercontent.com/images/bE5C7AyfhrXV8b2NK9vhMlEFmQ.png?scale-down-to=1024"
-                  alt=""
-                />
-              </div>
-              <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
-                <div className="flex flex-col  gap-2">
-                  <h3 className="text-white font-medium">Boring Corporation</h3>
+                <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
+                  <div className="flex flex-col  gap-2">
+                  <h3 className="text-white font-medium">{project.project_name}</h3>
                   <div className="flex items-center gap-4">
-                    <div className="flex text-text01 items-center gap-1">
-                      <LucideUsersRound size={18} />
-                      <h4 className="text-text01 font-medium">1 Forme</h4>
-                    </div>
-                    <div className="flex text-text01 font-medium items-center gap-1">
-                      <Calendar size={18} />
-                      <h4 className="text-text01 font-medium">2024</h4>
-                    </div>
+                  <div className="flex text-text01 items-center gap-1">
+                  <LucideUsersRound size={18} />
+                    <h4 className="text-text01 font-medium">{project?.project_views} Views</h4>
                   </div>
-                </div>
-                <ArrowUpRight
-                  className="group-hover:rotate-45 transition-all duration-300"
-                  strokeWidth={1.2}
-                />
-              </div>
-              <div className="absolute w-full h-full top-0 left-0 bg-black/20 "></div>
-            </div>
-            <div className=" relative group border border-white/20 p-px rounded-xl overflow-hidden w-full ">
-              <div className="overflow-hidden h-[450px]">
-                <img
-                  className="w-full transition-all duration-300  group-hover:scale-110"
-                  src="https://framerusercontent.com/images/bE5C7AyfhrXV8b2NK9vhMlEFmQ.png?scale-down-to=1024"
-                  alt=""
-                />
-              </div>
-              <div className="bg-[#1A1A1A] group-hover:bg-[#232323] transition-all duration-300  items-center justify-between  p-4 flex font-manrope  text-white">
-                <div className="flex flex-col  gap-2">
-                  <h3 className="text-white font-medium">Boring Corporation</h3>
-                  <div className="flex items-center gap-4">
-                    <div className="flex text-text01 items-center gap-1">
-                      <LucideUsersRound size={18} />
-                      <h4 className="text-text01 font-medium">1 Forme</h4>
-                    </div>
-                    <div className="flex text-text01 font-medium items-center gap-1">
-                      <Calendar size={18} />
-                      <h4 className="text-text01 font-medium">2024</h4>
-                    </div>
+                  <div className="flex text-text01 font-medium items-center gap-1">
+                  <Calendar size={18} />
+                  <h4 className="text-text01 font-medium">{project?.project_year}</h4>
                   </div>
+                  </div>
+                  </div>
+                  <ArrowUpRight className="group-hover:rotate-45 transition-all duration-300" strokeWidth={1.2}/>
                 </div>
-                <ArrowUpRight
-                  className="group-hover:rotate-45 transition-all duration-300"
-                  strokeWidth={1.2}
-                />
+                <div className="absolute w-full h-full top-0 left-0 bg-black/10 "></div>
               </div>
-              <div className="absolute w-full h-full top-0 left-0 bg-black/20 "></div>
-            </div>
+              </Link>
+              ))
+            }
+
           </div>
         </div>
       </Container>

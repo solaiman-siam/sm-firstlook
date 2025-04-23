@@ -1,45 +1,68 @@
 [
-    {
-      "id": 1,
-      "project_image": "https://i.ibb.co.com/PsbQ420S/duellert.jpg",
-      "project_name": "Birthday Reminder and SMS Sending",
-      "project_views": 1250,
-      "project_year": 2025
-    },
-    {
-      "id": 2,
-      "project_image": "https://i.ibb.co.com/4wdd6fWB/goldlync.jpg",
-      "project_name": "Service Based with Subscription Model",
-      "project_views": 2310,
-      "project_year": 2025
-    },
-    {
-      "id": 3,
-      "project_image": "https://i.ibb.co.com/gZkSc7Mx/aleesa56.jpg",
-      "project_name": "CQD Cleaning Services with Subscription",
-      "project_views": 980,
-      "project_year": 2025
-    },
-    {
-      "id": 4,
-      "project_image": "https://i.ibb.co.com/d47J2CsK/dustintess.jpg",
-      "project_name": "Car Model with Configuration Features",
-      "project_views": 1560,
-      "project_year": 2024
-    },
-    {
-      "id": 5,
-      "project_image": "https://i.ibb.co.com/Gfz65jbp/miles-finiq.jpg",
-      "project_name": "New places with Newsletter",
-      "project_views": 1560,
-      "project_year": 2025
-    },
-    {
-      "id": 6,
-      "project_image": "https://i.ibb.co.com/HpDSt6gd/conmap.jpg",
-      "project_name": "Construction Site Web Application",
-      "project_views": 1560,
-      "project_year": 2025
-    }
-    
-  ]
+  {
+    "id": 1,
+    "project_image": "https://i.ibb.co.com/PsbQ420S/duellert.jpg",
+    "project_name": "Birthday Reminder and SMS Sending",
+    "project_views": 1250,
+    "project_year": 2025,
+    "github_link": "https://github.com/yourusername/birthday-reminder",
+    "live_link": "https://birthday-reminder.example.com",
+    "description": "A full-stack web application that allows users to save birthdays of friends and family, and sends automated SMS reminders using Twilio API. It includes a dashboard to manage contacts, customizable messages, and scheduling options. Built for both personal and team use, especially useful in corporate environments to maintain relationships.",
+    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer"]
+  },
+  {
+    "id": 2,
+    "project_image": "https://i.ibb.co.com/4wdd6fWB/goldlync.jpg",
+    "project_name": "Service Based with Subscription Model",
+    "project_views": 2310,
+    "project_year": 2025,
+    "github_link": "https://github.com/yourusername/service-subscription",
+    "live_link": "https://service-subscription.example.com",
+    "description": "A subscription-based service platform designed for small businesses. Users can browse service packages, subscribe monthly, and manage their accounts. Includes secure payment integration, admin dashboards, and responsive UI/UX optimized for both desktop and mobile.",
+    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer"]
+  },
+  {
+    "id": 3,
+    "project_image": "https://i.ibb.co.com/gZkSc7Mx/aleesa56.jpg",
+    "project_name": "CQD Cleaning Services with Subscription",
+    "project_views": 980,
+    "project_year": 2025,
+    "github_link": "https://github.com/yourusername/cqd-cleaning",
+    "live_link": "https://cqd-cleaning.example.com",
+    "description": "A modern cleaning service web app allowing customers to book recurring or one-time cleaning services. The platform supports different subscription levels, booking management, real-time availability check, and customer profile customization.",
+    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer"]
+  },
+  {
+    "id": 4,
+    "project_image": "https://i.ibb.co.com/d47J2CsK/dustintess.jpg",
+    "project_name": "Car Model with Configuration Features",
+    "project_views": 1560,
+    "project_year": 2024,
+    "github_link": "https://github.com/yourusername/car-configurator",
+    "live_link": "https://car-configurator.example.com",
+    "description": "A car configurator tool where users can build their desired car model from scratch. It includes options to change colors, rims, interiors, and more. The interface is interactive and animated using Framer Motion, giving a real-time preview of configurations.",
+    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer"]
+  },
+  {
+    "id": 5,
+    "project_image": "https://i.ibb.co.com/Gfz65jbp/miles-finiq.jpg",
+    "project_name": "New places with Newsletter",
+    "project_views": 1560,
+    "project_year": 2025,
+    "github_link": "https://github.com/yourusername/new-places",
+    "live_link": "https://new-places.example.com",
+    "description": "A travel exploration website that allows users to discover new destinations and subscribe to a newsletter for weekly curated travel content. It includes featured destinations, travel tips, and integrations with Mailchimp for newsletter management.",
+    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer"]
+  },
+  {
+    "id": 6,
+    "project_image": "https://i.ibb.co.com/HpDSt6gd/conmap.jpg",
+    "project_name": "Construction Site Web Application",
+    "project_views": 1560,
+    "project_year": 2025,
+    "github_link": "https://github.com/yourusername/construction-site-app",
+    "live_link": "https://construction-app.example.com",
+    "description": "An enterprise-level application for managing multiple construction sites. It features task assignment, staff tracking, equipment logs, safety protocols, and progress reporting. Designed to improve operational efficiency and on-site coordination.",
+    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer"]
+  }
+]
