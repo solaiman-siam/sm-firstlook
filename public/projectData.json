@@ -64,5 +64,16 @@
     "live_link": "https://conmap-frontend.netlify.app/",
     "description": "An enterprise-level application for managing multiple construction sites. It features task assignment, staff tracking, equipment logs, safety protocols, and progress reporting. Designed to improve operational efficiency and on-site coordination.",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer"]
+  },
+  {
+    "id": 6,
+    "project_image": "https://i.ibb.co.com/7tG6d0hY/hbrook8.jpg",
+    "project_name": "Music Brand Promotion Based Website",
+    "project_views": 1560,
+    "project_year": 2024,
+    "github_link": "null",
+    "live_link": "https://www.jeanrenardmusic.com/",
+    "description": "An enterprise-level application for managing multiple construction sites. It features task assignment, staff tracking, equipment logs, safety protocols, and progress reporting. Designed to improve operational efficiency and on-site coordination.",
+    "tools": ["HTML", "JavaScript", "CSS"]
   }
 ]
