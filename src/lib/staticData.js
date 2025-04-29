@@ -99,6 +99,13 @@ export const navMenus = [
       "project_views": 1560,
       "project_year": 2025
     },
+    {
+      "id": 7,
+      "project_image": "https://i.ibb.co.com/7tG6d0hY/hbrook8.jpg",
+      "project_name": "Music Brand and Album Selling Web Application",
+      "project_views": 560,
+      "project_year": 2024
+    },
     
   ]
   
