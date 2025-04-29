@@ -129,3 +129,14 @@
     @apply border-border outline-ring/50;}
   body {
     @apply bg-background text-foreground;}}
+
+
+.project-details h2{
+  color: #f5f5f5;
+
+  
+}
+.project-details p, li ,ul{
+  color: #A1A1A1;
+
+}

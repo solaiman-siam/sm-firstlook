@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Outlet, ScrollRestoration } from "react-router";
 import Sidebar from "../components/Sidebar";
 import { useEffect, useState } from "react";
 import Lenis from "@studio-freight/lenis";
@@ -38,6 +38,7 @@ function MainLayout() {
 
   return (
     <div className="flex font-manrope  bg-[#151515]">
+    <ScrollRestoration/>
       <motion.div
         initial={{ filter: "blur(10px)", opacity: 0 }}
         animate={{ filter: "blur(0px)", opacity: 1, position: "fixed" }}
@@ -53,9 +54,7 @@ function MainLayout() {
         className="flex-1 ml-[270px] relative"
       >
         <Outlet />
-
         <div className="bg-gradient-to-b from-transparent via-white/5 to-white/10  backdrop-blur-sm z-[88] sticky bottom-0 w-full h-[50px]"></div>
-
       </motion.div>
     </div>
   );

@@ -7,7 +7,7 @@
     "project_year": 2025,
     "github_link": "https://github.com/solaiman-siam/duelert-main",
     "live_link": "https://duelert-main.vercel.app/",
-    "description": "A full-stack web application that allows users to save birthdays of friends and family, and sends automated SMS reminders using Twilio API. It includes a dashboard to manage contacts, customizable messages, and scheduling options. Built for both personal and team use, especially useful in corporate environments to maintain relationships.",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>Employee Manager is a subscription-based platform designed for HR professionals and team managers to efficiently manage employee data, celebrate birthdays, and streamline task management. With an easy-to-use interface, users can list employees, send personalized birthday wishes, and assign tasks to ensure smooth operations.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Employee listing and profile management</li><li>Automated birthday messages and personalized wishes</li><li>Task assignment and tracking feature</li><li>Subscription model for premium features and extended capabilities</li><li>Simple interface for HR management and team communication</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Efficient Employee Management:</strong> Easily list, update, and view employee information</li><li><strong>Employee Engagement:</strong> Send thoughtful birthday wishes and keep morale high</li><li><strong>Task Organization:</strong> Stay on top of tasks with a seamless assignment and tracking system</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form"]
   },
   {
@@ -18,62 +18,62 @@
     "project_year": 2025,
     "github_link": "https://github.com/solaiman-siam/goldlync-main",
     "live_link": "https://goldlync-main.vercel.app/",
-    "description": "A subscription-based service platform designed for small businesses. Users can browse service packages, subscribe monthly, and manage their accounts. Includes secure payment integration, admin dashboards, and responsive UI/UX optimized for both desktop and mobile.",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>Welcome to the Service Marketplace, where users can add their own services, provide detailed service information, and seek professional services. Our platform features a coin system, subscription options, authentication, and exclusive access for pro users, making it the go-to place for all service needs.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Users can add and list their services</li><li>Detailed service information for seeking services</li><li>Pro users can access premium features and services</li><li>Coin system to facilitate service transactions</li><li>Subscription and authentication for full access</li><li>Access blogs and resources related to services</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Easy Service Listings:</strong> Add and manage your services to attract clients</li><li><strong>Pro Access:</strong> Enjoy enhanced features and priority access to premium services</li><li><strong>Secure Transactions:</strong> Use the coin system to manage payments easily</li><li><strong>Exclusive Content:</strong> Subscribe for full access to premium features and blog content</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer Motion"]
   },
   {
     "id": 3,
     "project_image": "https://i.ibb.co.com/gZkSc7Mx/aleesa56.jpg",
-    "project_name": "CQD Cleaning Services with Subscription",
+    "project_name": "CQD - Commercial Cleaning Excellence",
     "project_views": 980,
     "project_year": 2025,
     "github_link": "https://github.com/solaiman-siam/cqd-services",
     "live_link": "https://cqdcleaningservices.com/",
-    "description": "A modern cleaning service web app allowing customers to book recurring or one-time cleaning services. The platform supports different subscription levels, booking management, real-time availability check, and customer profile customization.",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>At CQD, we stand by our commitment to deliver exceptional service with a focus on quality and hygiene. Choose CQD for a workspace that reflects your business's dedication to cleanliness and professional standards.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Subscription-based cleaning services</li><li>Customizable cleaning plans for businesses</li><li>Access to cleaning service blogs and tips</li><li>Seamless service sharing for teams</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Quality Assurance:</strong> Premium cleaning services for businesses</li><li><strong>Hygiene Focus:</strong> Maintaining the highest standards of cleanliness</li><li><strong>Convenience:</strong> Flexible subscription model and easy service sharing</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form"]
   },
   {
     "id": 4,
     "project_image": "https://i.ibb.co.com/d47J2CsK/dustintess.jpg",
-    "project_name": "Car Sales and Customization Platform",
+    "project_name": "Nova Motor Co - Buy & Personalize Your Dream Car",
     "project_views": 1560,
     "project_year": 2024,
     "github_link": "https://github.com/solaiman-siam/dustintess-client",
     "live_link": "https://novamotorco.com/",
-    "description": "Nova Motor Company is a modern web application built to streamline the process of browsing, purchasing, and customizing motor vehicles. Designed with a strong focus on user experience, the platform offers a clean, responsive interface and intuitive navigation that makes it easy for customers to explore a wide range of vehicles.",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>Welcome to Car Customizer, where you can not only buy your perfect car but also personalize it to match your style and preferences. With our customization options, you can create your dream car, selecting from a variety of features and designs to make it truly your own.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Browse and purchase a wide selection of cars</li><li>Customize cars with various features and options</li><li>Preview your customizations in real-time</li><li>Easy, secure checkout process</li><li>Special offers and financing options available</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Endless Customization:</strong> Personalize your car with a variety of options, from colors to interior features</li><li><strong>Seamless Shopping Experience:</strong> Simple interface to browse, customize, and buy</li><li><strong>Real-Time Previews:</strong> Visualize your custom car before purchasing</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form"]
   },
   {
     "id": 5,
     "project_image": "https://i.ibb.co.com/Gfz65jbp/miles-finiq.jpg",
-    "project_name": "Empowering Financial Institutions with Integrated Solutions",
+    "project_name": "FinIQ - Transforming Financial Services",
     "project_views": 1560,
     "project_year": 2025,
     "github_link": "https://github.com/solaiman-siam/Finiq",
     "live_link": "https://finiq.vercel.app/",
-    "description": "A travel exploration website that allows users to discover new destinations and subscribe to a newsletter for weekly curated travel content. It includes featured destinations, travel tips, and integrations with Mailchimp for newsletter management.",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>FinIQ recognizes the transformative changes in the financial industry, empowering financial institutions to manage and distribute products seamlessly across digital channels. Since 2003, we’ve specialized in distribution and digitalization technology, enabling over 60 global clients to streamline trading and post-trade processes.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Real-time liquidity sourcing</li><li>Instant pricing</li><li>Robust API connectivity with 30+ partners</li><li>Industry leaders like Bloomberg and JPMorgan</li><li>Dedicated support from a team of 400 professionals</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Global Reach:</strong> Serving over 60 global clients</li><li><strong>Operational Excellence:</strong> Ensuring efficiency across time zones</li><li><strong>Innovation:</strong> Advancing the future of finance through technology</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form"]
   },
   {
     "id": 6,
     "project_image": "https://i.ibb.co.com/HpDSt6gd/conmap.jpg",
-    "project_name": "Construction Site Web Application",
+    "project_name": "Construction Project Explorer Platform",
     "project_views": 1560,
     "project_year": 2025,
     "github_link": "null",
     "live_link": "https://conmap-frontend.netlify.app/",
-    "description": "An enterprise-level application for managing multiple construction sites. It features task assignment, staff tracking, equipment logs, safety protocols, and progress reporting. Designed to improve operational efficiency and on-site coordination.",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>A subscription-based platform to explore construction projects with search, filtering, and map integration. Users can view project details, save favorites, and access premium info with a subscription.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Login & registration</li><li>Project search by name, client, ZIP, or location</li><li>Interactive Google Map with pins</li><li>Save and view pinned projects</li><li>Subscription unlocks full details and contacts</li></ul><br/><h2 class='text-lg font-semibold'>Access Levels</h2><ul class='mt-2'><li><strong>Guests:</strong> Browse project names and locations</li><li><strong>Registered Users:</strong> Pin and view projects on the map</li><li><strong>Subscribers:</strong> View full project and contact details</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer Motion"]
   },
   {
     "id": 7,
     "project_image": "https://i.ibb.co.com/7tG6d0hY/hbrook8.jpg",
-    "project_name": "Music Brand Promotion Based Website",
+    "project_name": "Album Gallary - Discover and Buy Owner Albums",
     "project_views": 1560,
     "project_year": 2024,
     "github_link": "null",
     "live_link": "https://www.jeanrenardmusic.com/",
-    "description": "An enterprise-level application for managing multiple construction sites. It features task assignment, staff tracking, equipment logs, safety protocols, and progress reporting. Designed to improve operational efficiency and on-site coordination.",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>Welcome to Album Gallery, where you can explore a wide variety of albums curated by owners. From rare collections to new releases, discover unique albums, view their details, and purchase your favorites with ease.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Browse albums from various owners</li><li>View album details, including pricing and descriptions</li><li>Secure and simple purchasing process</li><li>Search and filter albums by genre, owner, or release date</li><li>Special offers and exclusive album releases</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Diverse Collection:</strong> Access to a wide range of albums from various artists and owners</li><li><strong>Convenience:</strong> Easy navigation and quick purchase options</li><li><strong>Exclusive Finds:</strong> Discover unique albums and limited releases</li></ul>",
     "tools": ["HTML", "JavaScript", "CSS", "Jquery"]
   }
 ]
