@@ -21,14 +21,14 @@ function Part2() {
 
 
   return (
-    <div className="w-full px-4 lg:px-16 py-10 lg:py-24 h-full border-y border-white/15 border-dashed">
-      <div className="flex items-center pb-4 justify-between ">
+    <div className="w-full  lg:px-16 py-10 lg:py-24 h-full border-y border-white/15 border-dashed">
+      <div className="flex px-4 items-center pb-4 justify-between ">
         <h3 className="text-text01 font-semibold ">Featured work</h3>
         <Link to={'/projects'}>
         <h3 className="text-base font-semibold text-text01 cursor-pointer transition-all duration-200 hover:text-white flex items-center group gap-2">All projects <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
         </Link>
       </div>
-      <div className="lg:w-10/12 overflow-hidden relative w-screen lg:max-w-[300px]  ">
+      <div className="lg:w-10/12 px-4 overflow-hidden relative w-screen   ">
         <div className="flex justify-between absolute top-1/2 -translate-y-1/2 z-[10] items-center px-10 w-full">
           <button
             className={`p-2 cursor-pointer rounded-full relative z-[10] custom-prev bg-black text-white ${
@@ -86,7 +86,7 @@ function Part2() {
               <SwiperSlide>
               <Link key={project.id} to={`/project-details/${project?.id}`}>
               <div   className=" relative overflow-hidden cursor-pointer group border border-white/20 p-px rounded-xl  w-full ">
-                <div className="overflow-hidden  h-[350px]">
+                <div className="overflow-hidden h-fit lg:h-[350px]">
                 <img
                   className="w-full transition-all duration-300 group-hover:scale-110"
                   src={project?.project_image}
