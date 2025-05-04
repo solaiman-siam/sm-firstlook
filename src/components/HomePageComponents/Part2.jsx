@@ -28,7 +28,7 @@ function Part2() {
         <h3 className="text-base font-semibold text-text01 cursor-pointer transition-all duration-200 hover:text-white flex items-center group gap-2">All projects <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
         </Link>
       </div>
-      <div className="lg:w-10/12 relative max-w-[400px] lg:max-w-[300px]  ">
+      <div className="lg:w-10/12 relative w-screen lg:max-w-[300px]  ">
         <div className="flex justify-between absolute top-1/2 -translate-y-1/2 z-[10] items-center px-10 w-full">
           <button
             className={`p-2 cursor-pointer rounded-full relative z-[10] custom-prev bg-black text-white ${
@@ -118,12 +118,12 @@ function Part2() {
         </Swiper>
         {/* Left Blur Effect (Show only if NOT at the start) */}
         {isEnd && (
-          <div className="absolute top-0 left-0 w-40 h-full z-[1] bg-gradient-to-l from-transparent via-black/50 to-black pointer-events-none duration-300 transition-all"></div>
+          <div className="absolute top-0 left-0 w-20 lg:w-40 h-full z-[1] bg-gradient-to-l from-transparent via-black/50 to-black pointer-events-none duration-300 transition-all"></div>
         )}
 
         {/* Right Blur Effect (Show only if NOT at the end) */}
         {isStart && (
-          <div className="absolute top-0 right-0 w-40 h-full z-[1] bg-gradient-to-l from-black via-black/50 to-transparent  pointer-events-none transition-all duration-300"></div>
+          <div className="absolute top-0 right-0 w-20 lg:w-40 h-full z-[1] bg-gradient-to-l from-black via-black/50 to-transparent  pointer-events-none transition-all duration-300"></div>
         )}
       </div>
     </div>
