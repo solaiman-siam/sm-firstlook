@@ -15,7 +15,7 @@ function Contact() {
         <Helmet>
           <title>SM - Contact</title>
         </Helmet>
-        <div className="text-white min-h-screen  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
+        <div className="text-white min-h-screen  relative  p-10 pb-20 pt-20 border-r border-l border-dashed border-white/13">
           <div>
             <div className="pb-20">
               <h3 className="text-3xl font-medium pb-4">Get in Touch</h3>
@@ -23,7 +23,6 @@ function Contact() {
                 Let's connect and start something great, tailored just for you.
               </p>
             </div>
-
             <div className="p-8 rounded-lg bg-[#1A1A1A] ">
               <form action="" className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">

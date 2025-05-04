@@ -5,9 +5,9 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { Link } from "react-router";
 function Part7() {
   return (
-    <div className="w-full  px-16 py-24 h-full border-t border-white/15 border-dashed">
-      <div className="flex flex-col items-center gap-8">
-        <div className="flex justify-center w-full  items-center pb-8 gap-4">
+    <div className="w-full px-4 lg:px-16 py-10 lg:py-24 h-full border-t border-white/15 border-dashed">
+      <div className="flex flex-col items-center gap-4 lg:gap-8">
+        <div className="flex justify-center w-full  items-center pb-2 lg:pb-8 gap-4">
           <span className="w-10 h-[1px]  bg-gradient-to-r from-transparent to-white"></span>
           <h3 className=" text-center text-text01 font-medium">
             Reach out any time
@@ -16,13 +16,13 @@ function Part7() {
         </div>
 
         <div className="flex flex-col items-center">
-          <h3 className="text-[42px] font-semibold text-white">
+          <h3 className="lg:text-[42px] text-3xl font-semibold text-white">
             Let’s Stay{" "}
             <span className="font-instrument font-medium italic text-text01">
               Connected
             </span>
           </h3>
-          <p className="text-text01 w-7/12 text-center py-8">
+          <p className="text-text01 w-full lg:w-7/12 text-center py-8">
             Got questions or want to collaborate? Feel free to reach out—I'm
             open to new projects or just a casual chat!
           </p>

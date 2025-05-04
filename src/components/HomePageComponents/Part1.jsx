@@ -14,7 +14,7 @@ const time = now.toLocaleTimeString([], {
   return (
     <div>
       <Container>
-        <div className="text-white  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
+        <div className="text-white  relative p-4  lg:p-10  pt-20 border-r border-l border-dashed border-white/13">
           <div className="flex flex-col relative z-[100]  gap-2">
             <div className="flex items-center pb-4 gap-3">
               <div className="size-6 overflow-hidden  rounded-full">
@@ -28,7 +28,7 @@ const time = now.toLocaleTimeString([], {
                 Passionate Web Developer.
               </p>
             </div>
-            <h2 className="text-4xl font-inter font-medium leading-[45px] tracking-tighter w-8/12">
+            <h2 className="lg:text-4xl text-3xl font-inter font-medium leading-[45px] tracking-tighter w-full lg:w-8/12">
             Hi, I’m Solaiman — a React Frontend Developer 
               <span className="text-text01"> turning bold ideas into seamless digital experiences.</span>
             </h2>

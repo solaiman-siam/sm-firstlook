@@ -8,19 +8,19 @@ import CommonButton from "../sharedComponents/CommonButton";
 
 function Part5() {
   return (
-    <div className="w-full  px-16 py-24 h-full border-y border-white/15 border-dashed">
-      <div className="flex items-center gap-8">
+    <div className="w-full p-4 lg:px-16 py-24 h-full border-y border-white/15 border-dashed">
+      <div className="flex lg:flex-row flex-col items-center gap-8">
         <div className="flex-1 text-white">
-          <h3 className="text-[42px] font-semibold">
+          <h3 className="lg:text-[42px] text-3xl font-semibold">
             Your Questions <span className="font-instrument font-medium italic text-text01">Answered</span>
           </h3>
-          <p className="text-text01 pt-4 w-8/12 pb-8 font-medium">
+          <p className="text-text01 pt-4 w-full lg:w-8/12 pb-8 font-medium">
             Find the answers to our most common questions here, but if you still
             need help, feel free to contact me.{" "}
           </p>
           <CommonButton innerText={'Contact Me'}/>
         </div>
-        <div className="flex-1 text-white">
+        <div className="flex-1  text-white">
           <Accordion type="single" collapsible className="w-full space-y-4 font-inter">
             <AccordionItem className={' bg-[#1c1c1c] border-white/5 cursor-pointer px-8 py-3 border  rounded-md'} value="item-1">
               <AccordionTrigger className={'underline-none text-white/90 hover:no-underline font-medium text-[17px] '}>Who is Solaiman?</AccordionTrigger>

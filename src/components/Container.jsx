@@ -2,7 +2,7 @@
 
 function Container({children}) {
   return (
-    <div className="max-w-[800px] mx-auto">
+    <div className="lg:max-w-[800px]  w-full px-4 mx-auto">
         {children}
     </div>
   )

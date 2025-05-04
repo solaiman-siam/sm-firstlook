@@ -21,14 +21,14 @@ function Part2() {
 
 
   return (
-    <div className="w-full px-16 py-24 h-full border-y border-white/15 border-dashed">
+    <div className="w-full px-4 lg:px-16 py-10 lg:py-24 h-full border-y border-white/15 border-dashed">
       <div className="flex items-center pb-4 justify-between ">
         <h3 className="text-text01 font-semibold ">Featured work</h3>
         <Link to={'/projects'}>
         <h3 className="text-base font-semibold text-text01 cursor-pointer transition-all duration-200 hover:text-white flex items-center group gap-2">All projects <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
         </Link>
       </div>
-      <div className="w-10/12 relative max-w-[1300px]  ">
+      <div className="lg:w-10/12 relative max-w-[400px] lg:max-w-[300px]  ">
         <div className="flex justify-between absolute top-1/2 -translate-y-1/2 z-[10] items-center px-10 w-full">
           <button
             className={`p-2 cursor-pointer rounded-full relative z-[10] custom-prev bg-black text-white ${
@@ -46,12 +46,25 @@ function Part2() {
           </button>
         </div>
         <Swiper
-          slidesPerView={2.2}
           spaceBetween={25}
           loop={false} // Disable looping to detect start & end
           navigation={{
             prevEl: ".custom-prev",
             nextEl: ".custom-next",
+          }}
+          breakpoints={{
+            600: {
+              slidesPerView: 1.2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 1,
+              spaceBetween: 40,
+            },
           }}
           modules={[Navigation]}
           slideNextClass="swiper-slide-next"

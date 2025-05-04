@@ -7,14 +7,14 @@ function Part6() {
   return (
     <div className=" border-dashed border-white/13 ">
       <Container>
-        <div className="text-white  p-10 py-20 border-r border-l border-dashed border-white/13">
+        <div className="text-white p-4 lg:p-10 py-10 lg:py-20 border-r border-l border-dashed border-white/13">
           <div className="flex justify-center items-center pb-8 gap-4">
             <span className="w-10 h-[1px]  bg-gradient-to-r from-transparent to-white"></span>
             <h3 className=" text-left text-text01 font-medium">My Stack</h3>
             <span className="w-10 h-[1px] bg-gradient-to-r from-white to-transparent"></span>
           </div>
 
-          <div className="  gap-2 flex-wrap justify-center space-y-6 grid grid-cols-3 p-8 w-full rounded-sm">
+          <div className="  gap-2 flex-wrap justify-center space-y-6 grid grid-cols-2 lg:grid-cols-3  lg:p-8 w-full rounded-sm">
             <Link to={'https://motion.dev/'} className=" group cursor-pointer flex items-center gap-3  rounded-sm text-text01 font-medium text-sm ">
               <div
                 className="border

@@ -13,9 +13,9 @@ function Part8() {
   return (
     <div className=" w-full relative border-t border-dashed border-white/10   flex justify-center items-center">
       <Container>
-    <div className="w-full   h-[400px] flex items-center ">
+    <div className="w-full h-[300px]  lg:h-[400px] flex items-center ">
     <motion.div className="flex  relative z-[8] tracking-wider justify-center flex-wrap gap-1 p-10">
-      <div className="flex flex-wrap w-4/8 text-center justify-center text-white font-curve text-[28px] ">
+      <div className="flex flex-wrap w-[74%] lg:w-4/8 text-center justify-center text-white font-curve text-[28px] ">
       {sentence.split("").map((char, index) => (
         <motion.span
           key={index}

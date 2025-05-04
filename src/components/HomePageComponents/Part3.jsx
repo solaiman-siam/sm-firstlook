@@ -6,7 +6,7 @@ function Part3() {
   return (
     <div>
     <Container>
-      <div className="text-white  p-10 py-20 border-r border-l border-dashed border-white/13">
+      <div className="text-white p-4 lg:p-10 py-20 border-r border-l border-dashed border-white/13">
         <div className="flex items-center justify-between ">
             <h3 className="text-text01 font-semibold">Who I am</h3>
             <h3 className="text-text01 font-semibold flex items-center hover:text-white transition-all duration-300 cursor-pointer gap-2 group">What I offer <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
@@ -19,8 +19,8 @@ function Part3() {
             <p>From self-learning to agency work, my journey has shaped me into a developer who values both form and function — and I’m just getting started.</p>
         </div>
 
-        <div className="pt-16 flex flex-col gap-6">
-            <div className="flex  items-center justify-between">
+        <div className="lg:pt-16 pt-10 flex flex-col gap-6">
+            <div className="flex flex-col lg:flex-row items-start lg:gap-0 gap-1  lg:items-center justify-between">
                 <div className="flex items-center gap-2.5">
                 <img className="w-6 h-6 rounded-full" src="https://i.ibb.co.com/hxJ6Yxjz/softvence.png" alt="" />
                 <h4 className="text-white font-semibold font-manrope">Softvence Agency</h4>
@@ -28,7 +28,7 @@ function Part3() {
                 <div className="flex-1 border-[0.5px] border-white/13 border-dashed mx-4">
 
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center lg:gap-2 gap-4 ">
                     <h4 className="text-text01 font-semibold font-manrope">Lead developer</h4>
                     <h4 className="text-[#686868] font-medium font-mono ">2024-NOW</h4>
                 </div>
