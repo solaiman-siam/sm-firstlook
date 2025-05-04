@@ -61,7 +61,7 @@
     "project_views": 1560,
     "project_year": 2025,
     "github_link": "null",
-    "live_link": "https://conmap-frontend.netlify.app/",
+    "live_link": "https://conmap.co.uk/",
     "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>A subscription-based platform to explore construction projects with search, filtering, and map integration. Users can view project details, save favorites, and access premium info with a subscription.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Login & registration</li><li>Project search by name, client, ZIP, or location</li><li>Interactive Google Map with pins</li><li>Save and view pinned projects</li><li>Subscription unlocks full details and contacts</li></ul><br/><h2 class='text-lg font-semibold'>Access Levels</h2><ul class='mt-2'><li><strong>Guests:</strong> Browse project names and locations</li><li><strong>Registered Users:</strong> Pin and view projects on the map</li><li><strong>Subscribers:</strong> View full project and contact details</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer Motion"]
   },
