@@ -32,7 +32,7 @@ function Contact() {
                   </label>
                   <input
                   placeholder="You name"
-                    className="px-4 py-2 text-text01 text-sm border-white/10 focus:outline-none focus:border-blue-500  rounded-md border bg-[#1F1F1F]"
+                    className="px-4 py-2.5 text-text01 text-sm border-white/10 focus:outline-none focus:border-white/50  rounded-md border bg-[#1F1F1F]"
                     type="text"
                     name=""
                     id=""
@@ -44,7 +44,7 @@ function Contact() {
                   </label>
                   <input
                   placeholder="Email"
-                    className="px-4 py-2 text-text01 text-sm border-white/10  focus:border-blue-500 focus:outline-none rounded-md border bg-[#1F1F1F]"
+                    className="px-4 py-2.5 text-text01 text-sm border-white/10  focus:border-white/50 focus:outline-none rounded-md border bg-[#1F1F1F]"
                     type="text"
                     name=""
                     id=""
@@ -56,12 +56,11 @@ function Contact() {
                   </label>
                   <textarea
                     placeholder="Express your word here..."
-                    className="px-4 text-text01 text-sm  h-[200px] w-full py-2 border-white/10  focus:border-blue-500 focus:outline-none rounded-md border bg-[#1F1F1F]"
+                    className="px-4 text-text01 text-sm  h-[200px] w-full py-2.5 border-white/10  focus:border-white/50 focus:outline-none rounded-md border bg-[#1F1F1F]"
                     name=""
                     id=""
                   ></textarea>
                 </div>
-
                 <div className="col-span-2 pt-2">
                   <button className="bg-white cursor-pointer font-medium text-sm text-black w-full py-3 rounded-lg">
                     Submit
