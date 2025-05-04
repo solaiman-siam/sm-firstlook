@@ -28,7 +28,7 @@ function Part2() {
         <h3 className="text-base font-semibold text-text01 cursor-pointer transition-all duration-200 hover:text-white flex items-center group gap-2">All projects <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
         </Link>
       </div>
-      <div className="lg:w-10/12 relative w-screen lg:max-w-[300px]  ">
+      <div className="lg:w-10/12 overflow-hidden relative w-screen lg:max-w-[300px]  ">
         <div className="flex justify-between absolute top-1/2 -translate-y-1/2 z-[10] items-center px-10 w-full">
           <button
             className={`p-2 cursor-pointer rounded-full relative z-[10] custom-prev bg-black text-white ${
