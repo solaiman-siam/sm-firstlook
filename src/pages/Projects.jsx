@@ -2,7 +2,7 @@ import Container from "@/components/Container";
 import { projectData } from "@/lib/staticData";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Calendar, LucideUsersRound } from "lucide-react";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router";
 
 function Projects() {

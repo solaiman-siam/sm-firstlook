@@ -8,7 +8,7 @@ import Part7 from "@/components/HomePageComponents/Part7";
 import Footer from "@/components/Footer";
 import Part8 from "@/components/HomePageComponents/Part8";
 import { motion } from "framer-motion";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (

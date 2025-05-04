@@ -14,7 +14,7 @@ import {
   Undo2,
 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router";
 
 function ProjectDetails() {

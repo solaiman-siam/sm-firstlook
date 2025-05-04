@@ -3,7 +3,7 @@ import Container from '@/components/Container'
 import { imageProvider } from '@/lib/imageProvider'
 import {motion} from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router'
 
 function Stack() {

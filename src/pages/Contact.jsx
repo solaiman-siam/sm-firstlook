@@ -6,7 +6,8 @@ import { FiPhone } from "react-icons/fi";
 import { TbBrandLinkedin } from "react-icons/tb";
 
 import {motion} from 'framer-motion'
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
+
 
 function Contact() {
   return (
