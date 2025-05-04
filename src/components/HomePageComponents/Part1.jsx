@@ -1,19 +1,27 @@
+import { AlignLeft } from "lucide-react";
 import { BackgroundBeams } from "../background-beams";
 import Container from "../Container";
 import CommonButton from "../sharedComponents/CommonButton";
+import { useContext } from "react";
+import { MainContext } from "@/provider/context";
+
 
 function Part1() {
-
+  const { setIsToggle, isToggle } = useContext(MainContext);
 
   const now = new Date();
-const time = now.toLocaleTimeString([], {
-  hour: '2-digit',
-  minute: '2-digit',
-  hour12: true,
-});
+  const time = now.toLocaleTimeString([], {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+  });
+
+  console.log( 'isToggle', isToggle);
+
   return (
     <div>
       <Container>
+        
         <div className="text-white  relative p-4  lg:p-10  pt-20 border-r border-l border-dashed border-white/13">
           <div className="flex flex-col relative z-[100]  gap-2">
             <div className="flex items-center pb-4 gap-3">
@@ -29,17 +37,18 @@ const time = now.toLocaleTimeString([], {
               </p>
             </div>
             <h2 className="lg:text-4xl text-3xl font-inter font-medium leading-[45px] tracking-tighter w-full lg:w-8/12">
-            Hi, I’m Solaiman — a React Frontend Developer 
-              <span className="text-text01"> turning bold ideas into seamless digital experiences.</span>
+              Hi, I’m Solaiman — a React Frontend Developer
+              <span className="text-text01">
+                {" "}
+                turning bold ideas into seamless digital experiences.
+              </span>
             </h2>
             <p className=" font-semibold text-text01 leading-[25px] w-6/12 pt-4">
-            Let’s bring your vision to life, one pixel at a time.
+              Let’s bring your vision to life, one pixel at a time.
             </p>
 
             <div className="py-8 flex items-center gap-4">
-             
-
-             <CommonButton innerText={'Contact Me'}/>
+              <CommonButton innerText={"Contact Me"} />
 
               <h4>{time}</h4>
             </div>
@@ -54,7 +63,7 @@ const time = now.toLocaleTimeString([], {
               </div>
             </div> */}
           </div>
-          <BackgroundBeams  className={'text-black/80'} />
+          <BackgroundBeams className={"text-black/80"} />
         </div>
       </Container>
     </div>

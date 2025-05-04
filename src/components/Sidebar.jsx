@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { navMenus } from "../lib/staticData";
-import { MoveUpRight } from "lucide-react";
+import { MoveUpRight, PanelLeftClose } from "lucide-react";
 import { PiDownloadSimple } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa6";
 import { Link } from "react-router";
+import { MainContext } from "@/provider/context";
+
 function Sidebar() {
   const [active, setActive] = useState(0);
+  const {isToggle, setIsToggle} = useContext(MainContext)
 
   const today = new Date();
 
@@ -21,7 +24,8 @@ function Sidebar() {
   };
 
   return (
-    <div className="h-screen flex flex-col justify-between  ">
+    <div className="h-screen flex relative flex-col justify-between  ">
+     
       <div className="p-6">
         <div className="flex items-center gap-2 text-white">
           <div className="w-12 h-12 overflow-hidden rounded-lg ">
@@ -44,7 +48,7 @@ function Sidebar() {
             <Link
               key={item.id}
               to={item?.link}
-              onClick={() => !item.isSection && setActive(index)}
+              onClick={() =>{ !item.isSection && setActive(index) ; setIsToggle(!isToggle)}}
               className={`${
                 index === active
                   ? `text-white border-white/5 border relative bg-[#1C1B1C]  py-[9px] transition-all group cursor-pointer duration-200 rounded-lg flex  items-center gap-2 ${
