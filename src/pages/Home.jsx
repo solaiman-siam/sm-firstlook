@@ -8,10 +8,14 @@ import Part7 from "@/components/HomePageComponents/Part7"
 import Footer from "@/components/Footer"
 import Part8 from "@/components/HomePageComponents/Part8"
 import {motion} from 'framer-motion'
+import { Helmet } from "react-helmet-async"
 
 function Home() {
   return (
     <motion.div initial={{filter: 'blur(10px)'}} animate={{filter: 'blur(0px)'}} transition={{duration: 0.3, ease: 'easeIn'}} className=" w-full bg-[#151515]">
+       <Helmet>
+                <title>SM - Home</title>
+              </Helmet>
       <Part1/>
       <Part2/>
       <Part3/>

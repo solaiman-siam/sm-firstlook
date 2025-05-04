@@ -6,11 +6,15 @@ import { FiPhone } from "react-icons/fi";
 import { TbBrandLinkedin } from "react-icons/tb";
 
 import {motion} from 'framer-motion'
+import { Helmet } from "react-helmet-async";
 
 function Contact() {
   return (
     <motion.div initial={{filter: 'blur(10px)'}} animate={{filter: 'blur(0px)'}} transition={{duration: 0.3, ease: 'easeIn'}}>
       <Container>
+        <Helmet>
+          <title>SM - Contact</title>
+        </Helmet>
         <div className="text-white min-h-screen  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
           <div>
             <div className="pb-20">

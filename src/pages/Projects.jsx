@@ -2,6 +2,7 @@ import Container from "@/components/Container";
 import { projectData } from "@/lib/staticData";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Calendar, LucideUsersRound } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router";
 
 function Projects() {
@@ -11,6 +12,9 @@ function Projects() {
       animate={{ filter: "blur(0px)" }}
       transition={{ duration: 0.3, ease: "easeIn" }}
     >
+       <Helmet>
+                <title>SM - Projects</title>
+              </Helmet>
       <Container>
         <div className="text-white min-h-screen  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
           <div className="pb-20">

@@ -4,7 +4,7 @@ import LiveLink from "@/components/sharedComponents/LiveLink";
 import { projectData } from "@/lib/staticData";
 import axios from "axios";
 import { motion, useScroll } from "framer-motion";
-import parse from 'html-react-parser';
+import parse from "html-react-parser";
 import {
   ArrowUpRight,
   Calendar,
@@ -14,6 +14,7 @@ import {
   Undo2,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router";
 
 function ProjectDetails() {
@@ -36,7 +37,7 @@ function ProjectDetails() {
 
   console.log(filteredData);
 
-  const description = ""
+  const description = "";
 
   return (
     <motion.div
@@ -44,6 +45,9 @@ function ProjectDetails() {
       animate={{ filter: "blur(0px)" }}
       transition={{ duration: 0.3, ease: "easeIn" }}
     >
+      <Helmet>
+        <title>SM - Project Details</title>
+      </Helmet>
       <Container>
         <div className="text-white min-h-screen  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
           <div className="pb-20">
@@ -57,8 +61,14 @@ function ProjectDetails() {
             </h3>
             <div className="   items-center justify-between pt-4 flex font-manrope  text-white">
               <div className="flex   gap-4">
-                <LiveLink innerText={'Live Link'} link={filteredData.live_link}/>
-                <GithubLink innerText={'Github Link'} link={filteredData.github_link}/>
+                <LiveLink
+                  innerText={"Live Link"}
+                  link={filteredData.live_link}
+                />
+                <GithubLink
+                  innerText={"Github Link"}
+                  link={filteredData.github_link}
+                />
               </div>
               {/* <ArrowUpRight className="group-hover:rotate-45 transition-all duration-300" strokeWidth={1.2}/> */}
             </div>
@@ -74,18 +84,16 @@ function ProjectDetails() {
               <div className="absolute w-full h-full top-0 left-0 bg-black/10 "></div>
             </div>
 
-            <div className="text-white/90 w-11/12 project-details pt-8">{parse(String(filteredData?.description))}
+            <div className="text-white/90 w-11/12 project-details pt-8">
+              {parse(String(filteredData?.description))}
             </div>
 
-            <div className="pt-8" >
+            <div className="pt-8">
               <h4 className="text-lg  pb-4 font-semibold">Tools</h4>
               <div className=" flex flex-wrap w-6/12 pt-1 gap-3">
-              {
-                filteredData?.tools?.map(item => (
+                {filteredData?.tools?.map((item) => (
                   <h4 className="px-4 py-1 rounded-lg bg-white/20">{item}</h4>
-
-                ))
-              }
+                ))}
               </div>
             </div>
           </div>
