@@ -16,10 +16,10 @@ function Projects() {
                 <title>SM - Projects</title>
               </Helmet>
       <Container>
-        <div className="text-white min-h-screen  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
-          <div className="pb-20">
+        <div className="text-white min-h-screen  relative p-4  lg:p-10 pt-20 border-r border-l border-dashed border-white/13">
+          <div className=" pb-10 lg:pb-20">
             <h3 className="text-3xl font-medium pb-4">Recent projects</h3>
-            <p className="text-text01 font-medium w-6/12">
+            <p className="text-text01 font-medium w-8/12 lg:w-6/12">
               Dive into the portfolio of a design journey well-traveled.
             </p>
           </div>
@@ -28,7 +28,7 @@ function Projects() {
               projectData.map(project => (
                 <Link key={project.id} to={`/project-details/${project?.id}`}>
               <div   className=" relative overflow-hidden cursor-pointer group border border-white/20 p-px rounded-xl  w-full ">
-                <div className="overflow-hidden  h-[450px]">
+                <div className="overflow-hidden h-[250px] lg:h-[450px]">
                 <img
                   className="w-full transition-all duration-300 group-hover:scale-110"
                   src={project?.project_image}

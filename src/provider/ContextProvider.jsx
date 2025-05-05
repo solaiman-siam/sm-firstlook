@@ -6,7 +6,7 @@ import { MainContext } from "./context";
 
 // Create the provider component
 function ContextProvider({ children }) {
-  const [isToggle, setIsToggle] = useState(true);
+  const [isToggle, setIsToggle] = useState(false);
 
   const stateInfo = {
     isToggle,

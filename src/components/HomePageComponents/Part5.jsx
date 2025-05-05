@@ -22,7 +22,7 @@ function Part5() {
         </div>
         <div className="flex-1  text-white">
           <Accordion type="single" collapsible className="w-full space-y-4 font-inter">
-            <AccordionItem className={' bg-[#1c1c1c] border-white/5 cursor-pointer px-8 py-3 border  rounded-md'} value="item-1">
+            <AccordionItem className={' bg-[#1c1c1c] border-white/5 cursor-pointer px-6 lg:px-8 py-2 lg:py-3 border  rounded-md'} value="item-1">
               <AccordionTrigger className={'underline-none text-white/90 hover:no-underline font-medium text-[17px] '}>Who is Solaiman?</AccordionTrigger>
               <AccordionContent className="overflow-hidden text-text01 text-sm transition-all text-[17px] data-[state=open]:animate-accordion-down data-[state=closed]:animate-accordion-up">
               I'm a React frontend developer with a passion for crafting intuitive, pixel-perfect user interfaces. My journey started with self-learning, grew through the Programming Hero course, and led me to my current role at Softvence Agency, where I bring designs to life through clean, scalable code.

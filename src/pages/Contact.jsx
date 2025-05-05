@@ -16,35 +16,35 @@ function Contact() {
         <Helmet>
           <title>SM - Contact</title>
         </Helmet>
-        <div className="text-white min-h-screen  relative  p-10 pb-20 pt-20 border-r border-l border-dashed border-white/13">
+        <div className="text-white min-h-screen  relative p-4  lg:p-10 pb-20 pt-20 border-r border-l border-dashed border-white/13">
           <div>
             <div className="pb-20">
               <h3 className="text-3xl font-medium pb-4">Get in Touch</h3>
-              <p className="text-text01 font-medium w-6/12">
+              <p className="text-text01 font-medium w-10/12 lg:w-6/12">
                 Let's connect and start something great, tailored just for you.
               </p>
             </div>
-            <div className="p-8 rounded-lg bg-[#1A1A1A] ">
-              <form action="" className="grid grid-cols-2 gap-4">
-                <div className="flex flex-col gap-2">
+            <div className="lg:p-8 rounded-lg bg-[#1A1A1A] ">
+              <form action="" className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+               <div className="flex flex-col  gap-2">
                   <label className="text-text01 text-sm" htmlFor="">
                     Name
                   </label>
                   <input
                   placeholder="You name"
-                    className="px-4 py-2.5 text-text01 text-sm border-white/10 focus:outline-none focus:border-white/50  rounded-md border bg-[#1F1F1F]"
+                    className="px-4 w-full py-2.5 text-text01 text-sm border-white/10 focus:outline-none focus:border-white/50  rounded-md border bg-[#1F1F1F]"
                     type="text"
                     name=""
                     id=""
                   />
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col  gap-2">
                   <label className="text-text01 text-sm" htmlFor="">
                     Company
                   </label>
                   <input
                   placeholder="Email"
-                    className="px-4 py-2.5 text-text01 text-sm border-white/10  focus:border-white/50 focus:outline-none rounded-md border bg-[#1F1F1F]"
+                    className="px-4 py-2.5 w-full text-text01 text-sm border-white/10  focus:border-white/50 focus:outline-none rounded-md border bg-[#1F1F1F]"
                     type="text"
                     name=""
                     id=""

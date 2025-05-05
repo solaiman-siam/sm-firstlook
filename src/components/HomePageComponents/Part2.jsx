@@ -28,25 +28,25 @@ function Part2() {
         <h3 className="text-base font-semibold text-text01 cursor-pointer transition-all duration-200 hover:text-white flex items-center group gap-2">All projects <ArrowUpRight strokeWidth={1.2} className="group-hover:rotate-45 transition-all duration-200 " /></h3>
         </Link>
       </div>
-      <div className="lg:w-10/12 relative  lg:max-w-[300px]  ">
+      <div className="lg:w-10/12 relative   lg:max-w-[1320px]  ">
         <div className="flex justify-between absolute top-1/2 -translate-y-1/2 z-[10] items-center px-4 lg:px-10 w-full">
           <button
             className={`p-2 cursor-pointer rounded-full relative z-[10] custom-prev bg-black text-white ${
               isStart ? "opacity-0" : ""
             }`}
           >
-            <ChevronLeft className="size-6 lg:size-10" />
+            <ChevronLeft className="size-6 lg:size-8" />
           </button>
           <button
             className={`p-2 cursor-pointer rounded-full relative z-[10] custom-next bg-black text-white  ${
               isEnd ? "opacity-0" : ""
             }`}
           >
-            <ChevronRight  className="size-6 lg:size-10" />
+            <ChevronRight  className="size-6 lg:size-8" />
           </button>
         </div>
         <Swiper
-          spaceBetween={25}
+          spaceBetween={20}
           loop={false} // Disable looping to detect start & end
           navigation={{
             prevEl: ".custom-prev",
@@ -62,7 +62,7 @@ function Part2() {
               spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 1,
+              slidesPerView: 2.2,
               spaceBetween: 40,
             },
           }}
@@ -86,7 +86,7 @@ function Part2() {
               <SwiperSlide>
               <Link key={project.id} to={`/project-details/${project?.id}`}>
               <div   className=" relative overflow-hidden cursor-pointer group border border-white/20 p-px rounded-xl  w-full ">
-                <div className="overflow-hidden  h-[350px]">
+                <div className="overflow-hidden  h-[280px] lg:h-[350px]">
                 <img
                   className="w-full transition-all duration-300 group-hover:scale-110"
                   src={project?.project_image}

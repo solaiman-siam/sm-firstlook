@@ -49,7 +49,7 @@ function ProjectDetails() {
         <title>SM - Project Details</title>
       </Helmet>
       <Container>
-        <div className="text-white min-h-screen  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
+        <div className="text-white min-h-screen  relative p-4  lg:p-10 pt-20 border-r border-l border-dashed border-white/13">
           <div className="pb-20">
             <Link to={"/"}>
               <button className="mb-4 cursor-pointer text-text01 flex items-center  gap-1">
@@ -74,7 +74,7 @@ function ProjectDetails() {
             </div>
 
             <div className=" relative mt-10 overflow-hidden cursor-pointer group border border-white/20 p-px rounded-xl  w-full ">
-              <div className="overflow-hidden  h-[450px]">
+              <div className="overflow-hidden h-[320px]  lg:h-[450px]">
                 <img
                   className="w-full transition-all duration-300 group-hover:scale-110"
                   src={filteredData?.project_image}

@@ -74,35 +74,35 @@ export const navMenus = [
     {
       "id": 3,
       "project_image": "https://i.ibb.co.com/gZkSc7Mx/aleesa56.jpg",
-      "project_name": "CQD Cleaning Services with Subscription",
+      "project_name": "CQD - Commercial Cleaning Excellence",
       "project_views": 980,
       "project_year": 2025
     },
     {
       "id": 4,
       "project_image": "https://i.ibb.co.com/d47J2CsK/dustintess.jpg",
-      "project_name": "Car Model with Configuration Features",
+      "project_name": "Nova Motor Co. - Buy & Personalize Your Dream Car",
       "project_views": 1560,
       "project_year": 2024
     },
     {
       "id": 5,
       "project_image": "https://i.ibb.co.com/Gfz65jbp/miles-finiq.jpg",
-      "project_name": "New places with Newsletter",
+      "project_name": "FinIQ - Transforming Financial Services",
       "project_views": 1560,
       "project_year": 2025
     },
     {
       "id": 6,
       "project_image": "https://i.ibb.co.com/HpDSt6gd/conmap.jpg",
-      "project_name": "Construction Site Web Application",
+      "project_name": "Construction Project Explorer Platform",
       "project_views": 1560,
       "project_year": 2025
     },
     {
       "id": 7,
       "project_image": "https://i.ibb.co.com/7tG6d0hY/hbrook8.jpg",
-      "project_name": "Music Brand and Album Selling Web Application",
+      "project_name": "Album Gallary - Discover and Buy Owner Albums",
       "project_views": 560,
       "project_year": 2024
     },

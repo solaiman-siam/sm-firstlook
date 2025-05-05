@@ -48,7 +48,7 @@ function Sidebar() {
             <Link
               key={item.id}
               to={item?.link}
-              onClick={() =>{ !item.isSection && setActive(index) ; setIsToggle(!isToggle)}}
+              onClick={() =>{ !item.isSection && setActive(index) ; window.innerWidth < 640 ? setIsToggle(!isToggle) : ''}}
               className={`${
                 index === active
                   ? `text-white border-white/5 border relative bg-[#1C1B1C]  py-[9px] transition-all group cursor-pointer duration-200 rounded-lg flex  items-center gap-2 ${

@@ -48,7 +48,7 @@ function MainLayout() {
     <div className="flex font-manrope   bg-[#151515]">
       <span
         onClick={() => setIsToggle(!isToggle)}
-        className="text-white/50 fixed  z-[1000] top-4 left-5"
+        className="text-white/50 fixed lg:hidden flex   z-[1000] top-4 left-5"
       >
         <PanelRightClose size={24} />
       </span>
@@ -65,7 +65,7 @@ function MainLayout() {
         <Sidebar />
         <span
           onClick={() => setIsToggle(!isToggle)}
-          className="absolute top-4 right-2 text-white/50"
+          className="absolute lg:hidden flex top-4 right-2 text-white/50"
         >
           <PanelLeftClose />
         </span>
