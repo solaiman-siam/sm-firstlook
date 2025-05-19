@@ -59,7 +59,7 @@ function MainLayout() {
         animate={{ filter: "blur(0px)", opacity: 1, position: "fixed" }}
         transition={{ duration: 1, ease: "easeIn" }}
         className={`w-[270px] h-screen fixed  z-[1000]  flex transition-all duration-300  border-dashed border-r border-[#222122] ${
-          isToggle ? "-translate-x-100 " : "translate-x-0 bg-background01"
+          isToggle ? "-translate-x-100 lg:translate-x-0 " : "translate-x-0 bg-background01"
         }`}
       >
         <Sidebar />

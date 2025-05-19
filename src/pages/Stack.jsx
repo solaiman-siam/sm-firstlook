@@ -20,15 +20,14 @@ function Stack() {
       <div className="text-white min-h-screen  relative  p-10 pt-20 border-r border-l border-dashed border-white/13">
         <div className="pb-20">
           <h3 className="text-3xl font-medium pb-4">My toolbox</h3>
-          <p className="text-text01 font-medium w-6/12">
+          <p className="text-text01 font-medium w-full lg:w-6/12">
           The tools and technologies that power my work, every step of the way.
           </p>
         </div>
 
 
         <div className="text-white    border-dashed border-white/13">
-     
-          <div className="  gap-4 flex-wrap justify-center  grid grid-cols-2  w-full rounded-sm">
+          <div className="  gap-4 flex-wrap justify-center  grid grid-cols-1 lg:grid-cols-2  w-full rounded-sm">
             <Link to={'https://motion.dev/'} className=" bg-[#1A1A1A] hover:border hover:border-dashed border border-transparent hover:border-white/40 p-4  group cursor-pointer flex items-center gap-3  rounded-sm text-text01 font-medium text-sm">
               <div
                 className="
