@@ -6,7 +6,7 @@
     "project_views": 1250,
     "project_year": 2025,
     "github_link": "https://github.com/solaiman-siam/duelert-main",
-    "live_link": "https://duelert-main.vercel.app/",
+    "live_link": "https://duelert.netlify.app/",
     "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>Employee Manager is a subscription-based platform designed for HR professionals and team managers to efficiently manage employee data, celebrate birthdays, and streamline task management. With an easy-to-use interface, users can list employees, send personalized birthday wishes, and assign tasks to ensure smooth operations.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Employee listing and profile management</li><li>Automated birthday messages and personalized wishes</li><li>Task assignment and tracking feature</li><li>Subscription model for premium features and extended capabilities</li><li>Simple interface for HR management and team communication</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Efficient Employee Management:</strong> Easily list, update, and view employee information</li><li><strong>Employee Engagement:</strong> Send thoughtful birthday wishes and keep morale high</li><li><strong>Task Organization:</strong> Stay on top of tasks with a seamless assignment and tracking system</li></ul>",
     "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form"]
   },
