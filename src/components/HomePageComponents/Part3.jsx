@@ -24,7 +24,7 @@ function Part3() {
             start: "top 80%",
             end: "top 20%",
             scrub: true,
-            markers: true,
+            markers: false,
           },
           opacity: 0.2,
           stagger: 0.1,
