@@ -1,6 +1,7 @@
 
 
 import { FaGithub } from "react-icons/fa6";
+import { imageProvider } from "./imageProvider";
 
 export const navMenus = [
     {
@@ -59,49 +60,49 @@ export const navMenus = [
   export const projectData = [
     {
       "id": 1,
-      "project_image": "https://i.ibb.co.com/PsbQ420S/duellert.jpg",
+      "project_image": imageProvider.Duellert,
       "project_name": "Birthday Reminder and SMS Sending",
       "project_views": 1250,
       "project_year": 2025
     },
     {
       "id": 2,
-      "project_image": "https://i.ibb.co.com/4wdd6fWB/goldlync.jpg",
+      "project_image": imageProvider.Goldlync,
       "project_name": "Service Based with Subscription Model",
       "project_views": 2310,
       "project_year": 2025
     },
     {
       "id": 3,
-      "project_image": "https://i.ibb.co.com/gZkSc7Mx/aleesa56.jpg",
+      "project_image": imageProvider.Aleesa56,
       "project_name": "CQD - Commercial Cleaning Excellence",
       "project_views": 980,
       "project_year": 2025
     },
     {
       "id": 4,
-      "project_image": "https://i.ibb.co.com/d47J2CsK/dustintess.jpg",
+      "project_image": imageProvider.Dustintess,
       "project_name": "Nova Motor Co. - Buy & Personalize Your Dream Car",
       "project_views": 1560,
       "project_year": 2024
     },
     {
       "id": 5,
-      "project_image": "https://i.ibb.co.com/Gfz65jbp/miles-finiq.jpg",
+      "project_image": imageProvider.MilesFiniq,
       "project_name": "FinIQ - Transforming Financial Services",
       "project_views": 1560,
       "project_year": 2025
     },
     {
       "id": 6,
-      "project_image": "https://i.ibb.co.com/HpDSt6gd/conmap.jpg",
+      "project_image": imageProvider.Conmap,
       "project_name": "Construction Project Explorer Platform",
       "project_views": 1560,
       "project_year": 2025
     },
     {
       "id": 7,
-      "project_image": "https://i.ibb.co.com/7tG6d0hY/hbrook8.jpg",
+      "project_image": imageProvider.Hbrook,
       "project_name": "Album Gallary - Discover and Buy Owner Albums",
       "project_views": 560,
       "project_year": 2024
