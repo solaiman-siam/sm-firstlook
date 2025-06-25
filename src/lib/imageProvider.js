@@ -16,6 +16,7 @@ import Goldlync from "../assets/projectImages/goldlync.jpg";
 import Dustintess from "../assets/projectImages/dustintess.jpg";
 import MilesFiniq from "../assets/projectImages/miles_finiq.jpg";
 import Hbrook from "../assets/projectImages/hbrook8.jpg";
+import Copybot from '../assets/projectImages/copybot.jpg'
 
 export const imageProvider = {
   ReactImage,
@@ -33,4 +34,5 @@ export const imageProvider = {
   Dustintess,
   MilesFiniq,
   Hbrook,
+  Copybot
 };

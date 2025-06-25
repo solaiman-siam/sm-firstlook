@@ -66,6 +66,13 @@ export const navMenus = [
       "project_year": 2025
     },
     {
+      "id": 8,
+      "project_image": imageProvider.Copybot,
+      "project_name": "Copybot – GPT Prompt Manager",
+      "project_views": 1020,
+      "project_year": 2025
+    },
+    {
       "id": 2,
       "project_image": imageProvider.Goldlync,
       "project_name": "Service Based with Subscription Model",

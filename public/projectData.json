@@ -1,5 +1,25 @@
 [
   {
+    "id": 8,
+    "project_image": "https://i.ibb.co/m5gCTrnm/Copybot-cover.jpg",
+    "project_name": "Copybot – GPT Prompt Manager",
+    "project_views": 1870,
+    "project_year": 2025,
+    "github_link": "https://github.com/solaiman-siam/copybot-client",
+    "live_link": "https://copybot-client.netlify.app/",
+    "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>Copybot is a powerful AI assistant platform designed to help users explore, save, and reuse high-quality prompts for ChatGPT. It features a prebuilt prompt library, custom prompt builder, and a subscription system to unlock premium features and better productivity.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Access curated, ready-to-use prompts</li><li>Create and manage custom prompts</li><li>Integrated GPT-based AI chat interface</li><li>Organize prompts by tags and categories</li><li>Subscription plans to unlock advanced tools</li><li>Secure user authentication and dashboard</li></ul><br/><h2 class='text-lg font-semibold'>User Benefits</h2><ul class='mt-2'><li><strong>Productivity Boost:</strong> Save time with one-click reusable prompts</li><li><strong>Custom Control:</strong> Build prompts tailored to your needs</li><li><strong>Premium Access:</strong> Unlock unlimited prompt slots and enhanced features</li><li><strong>Cross-Device Access:</strong> Fully responsive for mobile and desktop users</li></ul>",
+    "tools": [
+      "Nextjs",
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "React Hook Form",
+      "GSAP",
+      "GPT API"
+    ]
+  },
+
+  {
     "id": 1,
     "project_image": "https://i.ibb.co.com/PsbQ420S/duelert.jpg",
     "project_name": "Birthday Reminder and SMS Sending",
@@ -19,7 +39,13 @@
     "github_link": "https://github.com/solaiman-siam/goldlync-main",
     "live_link": "https://goldlync-main.vercel.app/",
     "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>Welcome to the Service Marketplace, where users can add their own services, provide detailed service information, and seek professional services. Our platform features a coin system, subscription options, authentication, and exclusive access for pro users, making it the go-to place for all service needs.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Users can add and list their services</li><li>Detailed service information for seeking services</li><li>Pro users can access premium features and services</li><li>Coin system to facilitate service transactions</li><li>Subscription and authentication for full access</li><li>Access blogs and resources related to services</li></ul><br/><h2 class='text-lg font-semibold'>Client Benefits</h2><ul class='mt-2'><li><strong>Easy Service Listings:</strong> Add and manage your services to attract clients</li><li><strong>Pro Access:</strong> Enjoy enhanced features and priority access to premium services</li><li><strong>Secure Transactions:</strong> Use the coin system to manage payments easily</li><li><strong>Exclusive Content:</strong> Subscribe for full access to premium features and blog content</li></ul>",
-    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer Motion"]
+    "tools": [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "React Hook Form",
+      "Framer Motion"
+    ]
   },
   {
     "id": 3,
@@ -63,7 +89,13 @@
     "github_link": "null",
     "live_link": "https://conmap.co.uk/",
     "description": "<h2 class='text-lg font-semibold'>Overview</h2><p class='mt-2'>A subscription-based platform to explore construction projects with search, filtering, and map integration. Users can view project details, save favorites, and access premium info with a subscription.</p><br/><h2 class='text-lg font-semibold'>Key Features</h2><ul class='mt-2 list-disc list-inside'><li>Login & registration</li><li>Project search by name, client, ZIP, or location</li><li>Interactive Google Map with pins</li><li>Save and view pinned projects</li><li>Subscription unlocks full details and contacts</li></ul><br/><h2 class='text-lg font-semibold'>Access Levels</h2><ul class='mt-2'><li><strong>Guests:</strong> Browse project names and locations</li><li><strong>Registered Users:</strong> Pin and view projects on the map</li><li><strong>Subscribers:</strong> View full project and contact details</li></ul>",
-    "tools": ["React", "JavaScript", "Tailwind CSS", "React Hook Form", "Framer Motion"]
+    "tools": [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "React Hook Form",
+      "Framer Motion"
+    ]
   },
   {
     "id": 7,
